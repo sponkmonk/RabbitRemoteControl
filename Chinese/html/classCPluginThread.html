@@ -1,0 +1,208 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="zh">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.9.5"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>玉兔远程控制: CPluginThread类 参考</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><img alt="Logo" src="app.ico"/></td>
+  <td id="projectalign">
+   <div id="projectname">玉兔远程控制<span id="projectnumber">&#160;v0.0.26</span>
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.9.5 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','搜索');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">载入中...</div>
+<div class="SRStatus" id="Searching">搜索中...</div>
+<div class="SRStatus" id="NoMatches">未找到</div>
+</div>
+</div>
+</div>
+</div>
+
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#signals">信号</a> &#124;
+<a href="#pro-methods">Protected 成员函数</a> &#124;
+<a href="classCPluginThread-members.html">所有成员列表</a>  </div>
+  <div class="headertitle"><div class="title">CPluginThread类 参考<div class="ingroups"><a class="el" href="group__LIBAPI.html">库</a> &raquo; <a class="el" href="group__LIBAPI__CLIENT.html">客户端库</a> &raquo; <a class="el" href="group__LIBAPI__THREAD.html">线程模型</a></div></div></div>
+</div><!--header-->
+<div class="contents">
+
+<p>一个线程处理多个连接者 <a class="el" href="classCConnecterDesktop.html" title="它仅实现 Qt 事件(非阻塞)">CConnecterDesktop</a> 。 一个连接者对应一个连接，也就是一个线程处理多个连接。 此类仅用于 <a class="el" href="classCPluginClientThread.html" title="它默认启动一个后台线程。 它与 CConnecterDesktop 一起可实现一个后台线程处理多个远程桌面连接。">CPluginClientThread</a> 由插件使用。例如：CPluginTigerVnc  
+ <a href="classCPluginThread.html#details">更多...</a></p>
+
+<p><code>#include &lt;<a class="el" href="PluginThread_8h_source.html">PluginThread.h</a>&gt;</code></p>
+<div class="dynheader">
+类 CPluginThread 继承关系图:</div>
+<div class="dyncontent">
+ <div class="center">
+  <img src="classCPluginThread.png" alt=""/>
+ </div></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="signals" name="signals"></a>
+信号</h2></td></tr>
+<tr class="memitem:ae7aab33f07b5ac48d8867164f8f21d39"><td class="memItemLeft" align="right" valign="top"><a id="ae7aab33f07b5ac48d8867164f8f21d39" name="ae7aab33f07b5ac48d8867164f8f21d39"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>sigConnect</b> (<a class="el" href="classCConnecterDesktop.html">CConnecterDesktop</a> *)</td></tr>
+<tr class="separator:ae7aab33f07b5ac48d8867164f8f21d39"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a840b441adbbd6fcf357cb10f6e06e81d"><td class="memItemLeft" align="right" valign="top"><a id="a840b441adbbd6fcf357cb10f6e06e81d" name="a840b441adbbd6fcf357cb10f6e06e81d"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>sigDisconnect</b> (<a class="el" href="classCConnecterDesktop.html">CConnecterDesktop</a> *)</td></tr>
+<tr class="separator:a840b441adbbd6fcf357cb10f6e06e81d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
+Protected 成员函数</h2></td></tr>
+<tr class="memitem:a1cb58f1ce169344a4419406d47ffa8c2"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCPluginThread.html#a1cb58f1ce169344a4419406d47ffa8c2">run</a> () override</td></tr>
+<tr class="memdesc:a1cb58f1ce169344a4419406d47ffa8c2"><td class="mdescLeft">&#160;</td><td class="mdescRight">One thread handles multiple <a class="el" href="classCConnecter.html" title="描述连接者应用接口。">CConnecter</a>.  <a href="classCPluginThread.html#a1cb58f1ce169344a4419406d47ffa8c2">更多...</a><br /></td></tr>
+<tr class="separator:a1cb58f1ce169344a4419406d47ffa8c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">详细描述</h2>
+<div class="textblock"><p >一个线程处理多个连接者 <a class="el" href="classCConnecterDesktop.html" title="它仅实现 Qt 事件(非阻塞)">CConnecterDesktop</a> 。 一个连接者对应一个连接，也就是一个线程处理多个连接。 此类仅用于 <a class="el" href="classCPluginClientThread.html" title="它默认启动一个后台线程。 它与 CConnecterDesktop 一起可实现一个后台线程处理多个远程桌面连接。">CPluginClientThread</a> 由插件使用。例如：CPluginTigerVnc </p>
+<dl class="section see"><dt>参见</dt><dd><a class="el" href="classCPluginClientThread.html" title="它默认启动一个后台线程。 它与 CConnecterDesktop 一起可实现一个后台线程处理多个远程桌面连接。">CPluginClientThread</a> <a class="el" href="classCManageConnect.html" title="管理连接。此类仅用于 CPluginThread">CManageConnect</a> <a class="el" href="classCConnecterDesktop.html" title="它仅实现 Qt 事件(非阻塞)">CConnecterDesktop</a> </dd></dl>
+
+<p class="definition">在文件 <a class="el" href="PluginThread_8h_source.html">PluginThread.h</a> 第 <a class="el" href="PluginThread_8h_source.html#l00023">23</a> 行定义.</p>
+</div><h2 class="groupheader">构造及析构函数说明</h2>
+<a id="a7811dcf6b414a04e36e3494b725321d9" name="a7811dcf6b414a04e36e3494b725321d9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7811dcf6b414a04e36e3494b725321d9">&#9670;&#160;</a></span>CPluginThread()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">CPluginThread::CPluginThread </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">explicit</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">在文件 <a class="el" href="PluginThread_8cpp_source.html">PluginThread.cpp</a> 第 <a class="el" href="PluginThread_8cpp_source.html#l00005">5</a> 行定义.</p>
+
+</div>
+</div>
+<a id="af57f1d1558a701bea449d73759598961" name="af57f1d1558a701bea449d73759598961"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af57f1d1558a701bea449d73759598961">&#9670;&#160;</a></span>~CPluginThread()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">CPluginThread::~CPluginThread </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">在文件 <a class="el" href="PluginThread_8cpp_source.html">PluginThread.cpp</a> 第 <a class="el" href="PluginThread_8cpp_source.html#l00010">10</a> 行定义.</p>
+
+</div>
+</div>
+<h2 class="groupheader">成员函数说明</h2>
+<a id="a1cb58f1ce169344a4419406d47ffa8c2" name="a1cb58f1ce169344a4419406d47ffa8c2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1cb58f1ce169344a4419406d47ffa8c2">&#9670;&#160;</a></span>run()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CPluginThread::run </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>One thread handles multiple <a class="el" href="classCConnecter.html" title="描述连接者应用接口。">CConnecter</a>. </p>
+<p >Register sigConnect and sigDisconnect, then enter event loop. </p>
+
+<p class="definition">在文件 <a class="el" href="PluginThread_8cpp_source.html">PluginThread.cpp</a> 第 <a class="el" href="PluginThread_8cpp_source.html#l00020">20</a> 行定义.</p>
+
+</div>
+</div>
+<hr/>该类的文档由以下文件生成:<ul>
+<li>/home/runner/work/RabbitRemoteControl/RabbitRemoteControl/Client/<a class="el" href="PluginThread_8h_source.html">PluginThread.h</a></li>
+<li>/home/runner/work/RabbitRemoteControl/RabbitRemoteControl/Client/<a class="el" href="PluginThread_8cpp_source.html">PluginThread.cpp</a></li>
+</ul>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+制作者&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5
+</small></address>
+</body>
+</html>

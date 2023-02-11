@@ -1,0 +1,940 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="zh">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.9.5"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>玉兔远程控制: CParameterRabbitVNC类 参考</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><img alt="Logo" src="app.ico"/></td>
+  <td id="projectalign">
+   <div id="projectname">玉兔远程控制<span id="projectnumber">&#160;v0.0.26</span>
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.9.5 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','搜索');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">载入中...</div>
+<div class="SRStatus" id="Searching">搜索中...</div>
+<div class="SRStatus" id="NoMatches">未找到</div>
+</div>
+</div>
+</div>
+</div>
+
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-types">Public 类型</a> &#124;
+<a href="#pub-methods">Public 成员函数</a> &#124;
+<a href="classCParameterRabbitVNC-members.html">所有成员列表</a>  </div>
+  <div class="headertitle"><div class="title">CParameterRabbitVNC类 参考</div></div>
+</div><!--header-->
+<div class="contents">
+<div class="dynheader">
+类 CParameterRabbitVNC 继承关系图:</div>
+<div class="dyncontent">
+ <div class="center">
+  <img src="classCParameterRabbitVNC.png" usemap="#CParameterRabbitVNC_map" alt=""/>
+  <map id="CParameterRabbitVNC_map" name="CParameterRabbitVNC_map">
+<area href="classCParameterConnecter.html" title="连接参数接口。它包含基本参数。此类仅在插件内有效。 应用程序不能直接访问，只能通过 CConnecter::OpenDialogSettings 进行设置。" alt="CParameterConnecter" shape="rect" coords="0,112,141,136"/>
+<area href="classCParameter.html" title="参数接口类" alt="CParameter" shape="rect" coords="0,56,141,80"/>
+  </map>
+</div></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-types" name="pub-types"></a>
+Public 类型</h2></td></tr>
+<tr class="memitem:a2331286f2cb12d70ee35804f06decaf3"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><b>COLOR_LEVEL</b> { <b>Full</b>
+, <b>Medium</b>
+, <b>Low</b>
+, <b>VeryLow</b>
+ }</td></tr>
+<tr class="separator:a2331286f2cb12d70ee35804f06decaf3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_types_classCParameterConnecter"><td colspan="2" onclick="javascript:toggleInherit('pub_types_classCParameterConnecter')"><img src="closed.png" alt="-"/>&#160;Public 类型 继承自 <a class="el" href="classCParameterConnecter.html">CParameterConnecter</a></td></tr>
+<tr class="memitem:a6e439b3cca8fd5608ea75d7a275b1a19 inherit pub_types_classCParameterConnecter"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><b>emProxy</b> { <br />
+&#160;&#160;<b>No</b>
+, <b>SocksV4</b>
+, <b>SocksV5</b>
+, <b>Http</b>
+, <br />
+&#160;&#160;<b>User</b> = 100
+<br />
+ }</td></tr>
+<tr class="separator:a6e439b3cca8fd5608ea75d7a275b1a19 inherit pub_types_classCParameterConnecter"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+Public 成员函数</h2></td></tr>
+<tr class="memitem:ae89b54b7b1c8cfcbd44ff892101ccda1"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCParameterRabbitVNC.html#ae89b54b7b1c8cfcbd44ff892101ccda1">CParameterRabbitVNC</a> (QObject *parent=nullptr)</td></tr>
+<tr class="separator:ae89b54b7b1c8cfcbd44ff892101ccda1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a01e8e46489a0bd7371ae31f195a8ac62"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCParameterRabbitVNC.html#a01e8e46489a0bd7371ae31f195a8ac62">Load</a> (QSettings &amp;set) override</td></tr>
+<tr class="separator:a01e8e46489a0bd7371ae31f195a8ac62"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae693783ad80646b3fe1ce7b4243b19d7"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCParameterRabbitVNC.html#ae693783ad80646b3fe1ce7b4243b19d7">Save</a> (QSettings &amp;set) override</td></tr>
+<tr class="separator:ae693783ad80646b3fe1ce7b4243b19d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab8c54936966a37bffddf0d0260011afe"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCParameterRabbitVNC.html#ab8c54936966a37bffddf0d0260011afe">GetCheckCompleted</a> () override</td></tr>
+<tr class="memdesc:ab8c54936966a37bffddf0d0260011afe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check whether the parameters are complete to decide whether to open the parameter dialog  <a href="classCParameterRabbitVNC.html#ab8c54936966a37bffddf0d0260011afe">更多...</a><br /></td></tr>
+<tr class="separator:ab8c54936966a37bffddf0d0260011afe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a80d2aa348800e21f9d7a95177e0af614"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCParameterRabbitVNC.html#a80d2aa348800e21f9d7a95177e0af614">GetShared</a> () const</td></tr>
+<tr class="separator:a80d2aa348800e21f9d7a95177e0af614"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac0665c5e3828cf95f60b54aa7a1d933d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCParameterRabbitVNC.html#ac0665c5e3828cf95f60b54aa7a1d933d">SetShared</a> (bool newShared)</td></tr>
+<tr class="separator:ac0665c5e3828cf95f60b54aa7a1d933d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a567c0967616a6648dcacc9813ed4a7e9"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCParameterRabbitVNC.html#a567c0967616a6648dcacc9813ed4a7e9">GetBufferEndRefresh</a> () const</td></tr>
+<tr class="separator:a567c0967616a6648dcacc9813ed4a7e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1060cd21169195673352aeb142268757"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCParameterRabbitVNC.html#a1060cd21169195673352aeb142268757">SetBufferEndRefresh</a> (bool newBufferEndRefresh)</td></tr>
+<tr class="separator:a1060cd21169195673352aeb142268757"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1f470b00cd21a1d441ffe758e725d23f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCParameterRabbitVNC.html#a1f470b00cd21a1d441ffe758e725d23f">GetSupportsDesktopResize</a> () const</td></tr>
+<tr class="separator:a1f470b00cd21a1d441ffe758e725d23f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abf0209d9ca13cfdf958650b958fe176f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCParameterRabbitVNC.html#abf0209d9ca13cfdf958650b958fe176f">SetSupportsDesktopResize</a> (bool newSupportsDesktopResize)</td></tr>
+<tr class="separator:abf0209d9ca13cfdf958650b958fe176f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa010f203a6e413a794019d270db0dbab"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCParameterRabbitVNC.html#aa010f203a6e413a794019d270db0dbab">GetAutoSelect</a> () const</td></tr>
+<tr class="separator:aa010f203a6e413a794019d270db0dbab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3e33c3795ed64ae2db322fa7e3ee6e41"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCParameterRabbitVNC.html#a3e33c3795ed64ae2db322fa7e3ee6e41">SetAutoSelect</a> (bool newAutoSelect)</td></tr>
+<tr class="separator:a3e33c3795ed64ae2db322fa7e3ee6e41"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a24b943d5eb2522e3b888b97c027c5c3c"><td class="memItemLeft" align="right" valign="top">COLOR_LEVEL&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCParameterRabbitVNC.html#a24b943d5eb2522e3b888b97c027c5c3c">GetColorLevel</a> () const</td></tr>
+<tr class="separator:a24b943d5eb2522e3b888b97c027c5c3c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2c860bf40536bc8ca418b83a539f9cc4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCParameterRabbitVNC.html#a2c860bf40536bc8ca418b83a539f9cc4">SetColorLevel</a> (COLOR_LEVEL newColorLevel)</td></tr>
+<tr class="separator:a2c860bf40536bc8ca418b83a539f9cc4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac90ffb3bd9be97b22cf569cf6a9ba016"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCParameterRabbitVNC.html#ac90ffb3bd9be97b22cf569cf6a9ba016">GetEncoding</a> () const</td></tr>
+<tr class="separator:ac90ffb3bd9be97b22cf569cf6a9ba016"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a96a36f61f3b21c0242e7f5ff23ab8f1c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCParameterRabbitVNC.html#a96a36f61f3b21c0242e7f5ff23ab8f1c">SetEncoding</a> (int newEncoding)</td></tr>
+<tr class="separator:a96a36f61f3b21c0242e7f5ff23ab8f1c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae8c93abee5195320a6b176df1c7b9ac3"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCParameterRabbitVNC.html#ae8c93abee5195320a6b176df1c7b9ac3">GetEnableCompressLevel</a> () const</td></tr>
+<tr class="separator:ae8c93abee5195320a6b176df1c7b9ac3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aee7ebdae40884165f739470f5324573c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCParameterRabbitVNC.html#aee7ebdae40884165f739470f5324573c">SetEnableCompressLevel</a> (bool newCompressLevel)</td></tr>
+<tr class="separator:aee7ebdae40884165f739470f5324573c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3c5f98ae6bbfb2bd2d9544648fa291c7"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCParameterRabbitVNC.html#a3c5f98ae6bbfb2bd2d9544648fa291c7">GetCompressLevel</a> () const</td></tr>
+<tr class="separator:a3c5f98ae6bbfb2bd2d9544648fa291c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afa76b5032dc634b905da5cecc6dc4a8b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCParameterRabbitVNC.html#afa76b5032dc634b905da5cecc6dc4a8b">SetCompressLevel</a> (int newCompressLevel)</td></tr>
+<tr class="separator:afa76b5032dc634b905da5cecc6dc4a8b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a55a28a43524f8107c846e3f4449ec81c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCParameterRabbitVNC.html#a55a28a43524f8107c846e3f4449ec81c">GetNoJpeg</a> () const</td></tr>
+<tr class="separator:a55a28a43524f8107c846e3f4449ec81c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0d81368bda9236f31523b322759ea13a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCParameterRabbitVNC.html#a0d81368bda9236f31523b322759ea13a">SetNoJpeg</a> (bool newNoJpeg)</td></tr>
+<tr class="separator:a0d81368bda9236f31523b322759ea13a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4fdb6ed4b8b2fb68df6fb809e9723833"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCParameterRabbitVNC.html#a4fdb6ed4b8b2fb68df6fb809e9723833">GetQualityLevel</a> () const</td></tr>
+<tr class="separator:a4fdb6ed4b8b2fb68df6fb809e9723833"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a468db8e6c8be80ead6ec9da05c6312e1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCParameterRabbitVNC.html#a468db8e6c8be80ead6ec9da05c6312e1">SetQualityLevel</a> (int newQualityLevel)</td></tr>
+<tr class="separator:a468db8e6c8be80ead6ec9da05c6312e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a851fbed47ed2e6230a2d48f5ec013a95"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCParameterRabbitVNC.html#a851fbed47ed2e6230a2d48f5ec013a95">GetIce</a> () const</td></tr>
+<tr class="separator:a851fbed47ed2e6230a2d48f5ec013a95"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a84537afd9aa1a27e2b203b07f16545da"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCParameterRabbitVNC.html#a84537afd9aa1a27e2b203b07f16545da">SetIce</a> (bool newIce)</td></tr>
+<tr class="separator:a84537afd9aa1a27e2b203b07f16545da"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae9a586cedf5a5b0cd400dda8b2db8963"><td class="memItemLeft" align="right" valign="top">const QString &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCParameterRabbitVNC.html#ae9a586cedf5a5b0cd400dda8b2db8963">GetPeerUser</a> () const</td></tr>
+<tr class="separator:ae9a586cedf5a5b0cd400dda8b2db8963"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a99fe9868c1cc7dd176988522d39eae95"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCParameterRabbitVNC.html#a99fe9868c1cc7dd176988522d39eae95">SetPeerUser</a> (const QString &amp;newPeerUser)</td></tr>
+<tr class="separator:a99fe9868c1cc7dd176988522d39eae95"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_classCParameterConnecter"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classCParameterConnecter')"><img src="closed.png" alt="-"/>&#160;Public 成员函数 继承自 <a class="el" href="classCParameterConnecter.html">CParameterConnecter</a></td></tr>
+<tr class="memitem:a7f1be8c9ba249ba60fd70a758e070831 inherit pub_methods_classCParameterConnecter"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCParameterConnecter.html#a7f1be8c9ba249ba60fd70a758e070831">CParameterConnecter</a> (QObject *parent=nullptr)</td></tr>
+<tr class="separator:a7f1be8c9ba249ba60fd70a758e070831 inherit pub_methods_classCParameterConnecter"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab92b4894c8101b190f084a614cf651f0 inherit pub_methods_classCParameterConnecter"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCParameterConnecter.html#ab92b4894c8101b190f084a614cf651f0">Load</a> (QSettings &amp;set) override</td></tr>
+<tr class="separator:ab92b4894c8101b190f084a614cf651f0 inherit pub_methods_classCParameterConnecter"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0d949cf211e6fe8b845e50902fe02be7 inherit pub_methods_classCParameterConnecter"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCParameterConnecter.html#a0d949cf211e6fe8b845e50902fe02be7">Save</a> (QSettings &amp;set) override</td></tr>
+<tr class="separator:a0d949cf211e6fe8b845e50902fe02be7 inherit pub_methods_classCParameterConnecter"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0a166ace34678f5dd6116c85eff001b0 inherit pub_methods_classCParameterConnecter"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classCParameterClient.html">CParameterClient</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCParameterConnecter.html#a0a166ace34678f5dd6116c85eff001b0">GetParameterClient</a> ()</td></tr>
+<tr class="separator:a0a166ace34678f5dd6116c85eff001b0 inherit pub_methods_classCParameterConnecter"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a49ae94e3d106be556692b5eb5703eee1 inherit pub_methods_classCParameterConnecter"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCParameterConnecter.html#a49ae94e3d106be556692b5eb5703eee1">GetCheckCompleted</a> ()</td></tr>
+<tr class="memdesc:a49ae94e3d106be556692b5eb5703eee1 inherit pub_methods_classCParameterConnecter"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check whether the parameters are complete to decide whether to open the parameter dialog  <a href="classCParameterConnecter.html#a49ae94e3d106be556692b5eb5703eee1">更多...</a><br /></td></tr>
+<tr class="separator:a49ae94e3d106be556692b5eb5703eee1 inherit pub_methods_classCParameterConnecter"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a03d7c0c131b40150fd5731dbc4561d1b inherit pub_methods_classCParameterConnecter"><td class="memItemLeft" align="right" valign="top">const QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCParameterConnecter.html#a03d7c0c131b40150fd5731dbc4561d1b">GetName</a> () const</td></tr>
+<tr class="separator:a03d7c0c131b40150fd5731dbc4561d1b inherit pub_methods_classCParameterConnecter"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afc6b34a6c9ac2370acf2177f8d3b0e93 inherit pub_methods_classCParameterConnecter"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCParameterConnecter.html#afc6b34a6c9ac2370acf2177f8d3b0e93">SetName</a> (const QString &amp;name)</td></tr>
+<tr class="separator:afc6b34a6c9ac2370acf2177f8d3b0e93 inherit pub_methods_classCParameterConnecter"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a13bbdbd06bf58dbfc3d6b05cccbe75bf inherit pub_methods_classCParameterConnecter"><td class="memItemLeft" align="right" valign="top">const QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCParameterConnecter.html#a13bbdbd06bf58dbfc3d6b05cccbe75bf">GetServerName</a> () const</td></tr>
+<tr class="separator:a13bbdbd06bf58dbfc3d6b05cccbe75bf inherit pub_methods_classCParameterConnecter"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa319db9f1c3cbc9855fd0e0c15f77813 inherit pub_methods_classCParameterConnecter"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCParameterConnecter.html#aa319db9f1c3cbc9855fd0e0c15f77813">SetServerName</a> (const QString &amp;name)</td></tr>
+<tr class="separator:aa319db9f1c3cbc9855fd0e0c15f77813 inherit pub_methods_classCParameterConnecter"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae57bb1d7a77f5c716f8d9e8eafca5e50 inherit pub_methods_classCParameterConnecter"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCParameterConnecter.html#ae57bb1d7a77f5c716f8d9e8eafca5e50">GetShowServerName</a> () const</td></tr>
+<tr class="separator:ae57bb1d7a77f5c716f8d9e8eafca5e50 inherit pub_methods_classCParameterConnecter"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aea01dfad9ed9c2961669e310085b2621 inherit pub_methods_classCParameterConnecter"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCParameterConnecter.html#aea01dfad9ed9c2961669e310085b2621">SetShowServerName</a> (bool NewShowServerName)</td></tr>
+<tr class="separator:aea01dfad9ed9c2961669e310085b2621 inherit pub_methods_classCParameterConnecter"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a563c0f1b712d502963799e5f072fd785 inherit pub_methods_classCParameterConnecter"><td class="memItemLeft" align="right" valign="top">const QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCParameterConnecter.html#a563c0f1b712d502963799e5f072fd785">GetHost</a> () const</td></tr>
+<tr class="separator:a563c0f1b712d502963799e5f072fd785 inherit pub_methods_classCParameterConnecter"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a08b267681859d805c209516ca3a091cb inherit pub_methods_classCParameterConnecter"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCParameterConnecter.html#a08b267681859d805c209516ca3a091cb">SetHost</a> (const QString &amp;szHost)</td></tr>
+<tr class="separator:a08b267681859d805c209516ca3a091cb inherit pub_methods_classCParameterConnecter"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a22370ff1b0d4d2edf9da0bc17482afdc inherit pub_methods_classCParameterConnecter"><td class="memItemLeft" align="right" valign="top">const quint16&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCParameterConnecter.html#a22370ff1b0d4d2edf9da0bc17482afdc">GetPort</a> () const</td></tr>
+<tr class="separator:a22370ff1b0d4d2edf9da0bc17482afdc inherit pub_methods_classCParameterConnecter"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab4f5deccf0ac0889343101bf66983226 inherit pub_methods_classCParameterConnecter"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCParameterConnecter.html#ab4f5deccf0ac0889343101bf66983226">SetPort</a> (quint16 port)</td></tr>
+<tr class="separator:ab4f5deccf0ac0889343101bf66983226 inherit pub_methods_classCParameterConnecter"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af86e7d774a62ff02d2f4e4947cfd2a8e inherit pub_methods_classCParameterConnecter"><td class="memItemLeft" align="right" valign="top">const QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCParameterConnecter.html#af86e7d774a62ff02d2f4e4947cfd2a8e">GetUser</a> () const</td></tr>
+<tr class="separator:af86e7d774a62ff02d2f4e4947cfd2a8e inherit pub_methods_classCParameterConnecter"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae7c8e00c4afbbbef508d96cd3df51331 inherit pub_methods_classCParameterConnecter"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCParameterConnecter.html#ae7c8e00c4afbbbef508d96cd3df51331">SetUser</a> (const QString &amp;user)</td></tr>
+<tr class="separator:ae7c8e00c4afbbbef508d96cd3df51331 inherit pub_methods_classCParameterConnecter"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa9ceaafc321bb46c90e86ba33d520538 inherit pub_methods_classCParameterConnecter"><td class="memItemLeft" align="right" valign="top">const QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCParameterConnecter.html#aa9ceaafc321bb46c90e86ba33d520538">GetPassword</a> () const</td></tr>
+<tr class="separator:aa9ceaafc321bb46c90e86ba33d520538 inherit pub_methods_classCParameterConnecter"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a79e36f42f42f9496a7700c4bc812fd3b inherit pub_methods_classCParameterConnecter"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCParameterConnecter.html#a79e36f42f42f9496a7700c4bc812fd3b">SetPassword</a> (const QString &amp;password)</td></tr>
+<tr class="separator:a79e36f42f42f9496a7700c4bc812fd3b inherit pub_methods_classCParameterConnecter"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3f4db1949a752b1e42e8693ac4d10f27 inherit pub_methods_classCParameterConnecter"><td class="memItemLeft" align="right" valign="top">const bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCParameterConnecter.html#a3f4db1949a752b1e42e8693ac4d10f27">GetSavePassword</a> () const</td></tr>
+<tr class="separator:a3f4db1949a752b1e42e8693ac4d10f27 inherit pub_methods_classCParameterConnecter"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeece189078179295fc84f12aab47e543 inherit pub_methods_classCParameterConnecter"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCParameterConnecter.html#aeece189078179295fc84f12aab47e543">SetSavePassword</a> (bool save)</td></tr>
+<tr class="memdesc:aeece189078179295fc84f12aab47e543 inherit pub_methods_classCParameterConnecter"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set save password  <a href="classCParameterConnecter.html#aeece189078179295fc84f12aab47e543">更多...</a><br /></td></tr>
+<tr class="separator:aeece189078179295fc84f12aab47e543 inherit pub_methods_classCParameterConnecter"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8cce1d48f0d032e33c06f3cd0cb2573a inherit pub_methods_classCParameterConnecter"><td class="memItemLeft" align="right" valign="top">const bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCParameterConnecter.html#a8cce1d48f0d032e33c06f3cd0cb2573a">GetOnlyView</a> () const</td></tr>
+<tr class="separator:a8cce1d48f0d032e33c06f3cd0cb2573a inherit pub_methods_classCParameterConnecter"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab9616944d2ef3a26d7d794e041495f00 inherit pub_methods_classCParameterConnecter"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCParameterConnecter.html#ab9616944d2ef3a26d7d794e041495f00">SetOnlyView</a> (bool only)</td></tr>
+<tr class="separator:ab9616944d2ef3a26d7d794e041495f00 inherit pub_methods_classCParameterConnecter"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a16f10a137c68837d9950d2b4e44b2384 inherit pub_methods_classCParameterConnecter"><td class="memItemLeft" align="right" valign="top">const bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCParameterConnecter.html#a16f10a137c68837d9950d2b4e44b2384">GetLocalCursor</a> () const</td></tr>
+<tr class="separator:a16f10a137c68837d9950d2b4e44b2384 inherit pub_methods_classCParameterConnecter"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1bbe9f69e2698590045ee09ea81b00f6 inherit pub_methods_classCParameterConnecter"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCParameterConnecter.html#a1bbe9f69e2698590045ee09ea81b00f6">SetLocalCursor</a> (bool cursor)</td></tr>
+<tr class="separator:a1bbe9f69e2698590045ee09ea81b00f6 inherit pub_methods_classCParameterConnecter"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abebbb37c20227c36747747652fcef43b inherit pub_methods_classCParameterConnecter"><td class="memItemLeft" align="right" valign="top">const bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCParameterConnecter.html#abebbb37c20227c36747747652fcef43b">GetClipboard</a> () const</td></tr>
+<tr class="separator:abebbb37c20227c36747747652fcef43b inherit pub_methods_classCParameterConnecter"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a358238623c8becc05dd2f45c50ed6916 inherit pub_methods_classCParameterConnecter"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCParameterConnecter.html#a358238623c8becc05dd2f45c50ed6916">SetClipboard</a> (bool c)</td></tr>
+<tr class="separator:a358238623c8becc05dd2f45c50ed6916 inherit pub_methods_classCParameterConnecter"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2c03d81ae32e2ae9753ad5e1fdd1fdda inherit pub_methods_classCParameterConnecter"><td class="memItemLeft" align="right" valign="top">const emProxy&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCParameterConnecter.html#a2c03d81ae32e2ae9753ad5e1fdd1fdda">GetProxyType</a> () const</td></tr>
+<tr class="separator:a2c03d81ae32e2ae9753ad5e1fdd1fdda inherit pub_methods_classCParameterConnecter"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4f62639ae4c84010b8ec7c371047cfd3 inherit pub_methods_classCParameterConnecter"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCParameterConnecter.html#a4f62639ae4c84010b8ec7c371047cfd3">SetProxyType</a> (emProxy type)</td></tr>
+<tr class="separator:a4f62639ae4c84010b8ec7c371047cfd3 inherit pub_methods_classCParameterConnecter"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab8a5929e623541468c959084ce327149 inherit pub_methods_classCParameterConnecter"><td class="memItemLeft" align="right" valign="top">const QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCParameterConnecter.html#ab8a5929e623541468c959084ce327149">GetProxyHost</a> () const</td></tr>
+<tr class="separator:ab8a5929e623541468c959084ce327149 inherit pub_methods_classCParameterConnecter"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a12aef4a773b0985bfb3454114de49cf4 inherit pub_methods_classCParameterConnecter"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCParameterConnecter.html#a12aef4a773b0985bfb3454114de49cf4">SetProxyHost</a> (const QString &amp;host)</td></tr>
+<tr class="separator:a12aef4a773b0985bfb3454114de49cf4 inherit pub_methods_classCParameterConnecter"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af9198f8358f86268efc17e0fa9c9ad13 inherit pub_methods_classCParameterConnecter"><td class="memItemLeft" align="right" valign="top">const quint16&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCParameterConnecter.html#af9198f8358f86268efc17e0fa9c9ad13">GetProxyPort</a> () const</td></tr>
+<tr class="separator:af9198f8358f86268efc17e0fa9c9ad13 inherit pub_methods_classCParameterConnecter"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaf3ade41464641c2c40d1ffaf91e697f inherit pub_methods_classCParameterConnecter"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCParameterConnecter.html#aaf3ade41464641c2c40d1ffaf91e697f">SetProxyPort</a> (quint16 port)</td></tr>
+<tr class="separator:aaf3ade41464641c2c40d1ffaf91e697f inherit pub_methods_classCParameterConnecter"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae671ef378425cf80c22a0ee67f480746 inherit pub_methods_classCParameterConnecter"><td class="memItemLeft" align="right" valign="top">const QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCParameterConnecter.html#ae671ef378425cf80c22a0ee67f480746">GetProxyUser</a> () const</td></tr>
+<tr class="separator:ae671ef378425cf80c22a0ee67f480746 inherit pub_methods_classCParameterConnecter"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adb65f389a3394dca6fc58a770eda2c0e inherit pub_methods_classCParameterConnecter"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCParameterConnecter.html#adb65f389a3394dca6fc58a770eda2c0e">SetProxyUser</a> (const QString &amp;user)</td></tr>
+<tr class="separator:adb65f389a3394dca6fc58a770eda2c0e inherit pub_methods_classCParameterConnecter"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a507d51c2df90e114b034d0b0e6321a40 inherit pub_methods_classCParameterConnecter"><td class="memItemLeft" align="right" valign="top">const QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCParameterConnecter.html#a507d51c2df90e114b034d0b0e6321a40">GetProxyPassword</a> () const</td></tr>
+<tr class="separator:a507d51c2df90e114b034d0b0e6321a40 inherit pub_methods_classCParameterConnecter"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acf903d47ff6c2e8ff180e27022e2a0c9 inherit pub_methods_classCParameterConnecter"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCParameterConnecter.html#acf903d47ff6c2e8ff180e27022e2a0c9">SetProxyPassword</a> (const QString &amp;password)</td></tr>
+<tr class="separator:acf903d47ff6c2e8ff180e27022e2a0c9 inherit pub_methods_classCParameterConnecter"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_classCParameter"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classCParameter')"><img src="closed.png" alt="-"/>&#160;Public 成员函数 继承自 <a class="el" href="classCParameter.html">CParameter</a></td></tr>
+<tr class="memitem:abd7b7af1c6311db588e8a1b00a6b6970 inherit pub_methods_classCParameter"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCParameter.html#abd7b7af1c6311db588e8a1b00a6b6970">CParameter</a> (QObject *parent=nullptr)</td></tr>
+<tr class="separator:abd7b7af1c6311db588e8a1b00a6b6970 inherit pub_methods_classCParameter"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae7a5d82c3fe1fb0e1fe74f41405ea7ac inherit pub_methods_classCParameter"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCParameter.html#ae7a5d82c3fe1fb0e1fe74f41405ea7ac">Load</a> (QString szFile=QString())</td></tr>
+<tr class="separator:ae7a5d82c3fe1fb0e1fe74f41405ea7ac inherit pub_methods_classCParameter"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a37c60e3be405f0cdef1377d6f9b4a6a8 inherit pub_methods_classCParameter"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCParameter.html#a37c60e3be405f0cdef1377d6f9b4a6a8">Save</a> (QString szFile=QString())</td></tr>
+<tr class="separator:a37c60e3be405f0cdef1377d6f9b4a6a8 inherit pub_methods_classCParameter"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aafc57b10529f87267cd3f2a1c114be83 inherit pub_methods_classCParameter"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCParameter.html#aafc57b10529f87267cd3f2a1c114be83">Load</a> (QSettings &amp;set)=0</td></tr>
+<tr class="separator:aafc57b10529f87267cd3f2a1c114be83 inherit pub_methods_classCParameter"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac1ce33556b20ddc28e7442d6171a9375 inherit pub_methods_classCParameter"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCParameter.html#ac1ce33556b20ddc28e7442d6171a9375">Save</a> (QSettings &amp;set)=0</td></tr>
+<tr class="separator:ac1ce33556b20ddc28e7442d6171a9375 inherit pub_methods_classCParameter"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa8032b3b13982776a6ef29bf24c127ca inherit pub_methods_classCParameter"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCParameter.html#aa8032b3b13982776a6ef29bf24c127ca">GetModified</a> ()</td></tr>
+<tr class="separator:aa8032b3b13982776a6ef29bf24c127ca inherit pub_methods_classCParameter"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="inherited" name="inherited"></a>
+额外继承的成员函数</h2></td></tr>
+<tr class="inherit_header signals_classCParameterConnecter"><td colspan="2" onclick="javascript:toggleInherit('signals_classCParameterConnecter')"><img src="closed.png" alt="-"/>&#160;信号 继承自 <a class="el" href="classCParameterConnecter.html">CParameterConnecter</a></td></tr>
+<tr class="memitem:aacced11ffe241bd6637974816113c4b9 inherit signals_classCParameterConnecter"><td class="memItemLeft" align="right" valign="top"><a id="aacced11ffe241bd6637974816113c4b9" name="aacced11ffe241bd6637974816113c4b9"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>sigNameChanged</b> (const QString &amp;name=QString())</td></tr>
+<tr class="separator:aacced11ffe241bd6637974816113c4b9 inherit signals_classCParameterConnecter"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a35db362f33d7dfa86028a678fc806571 inherit signals_classCParameterConnecter"><td class="memItemLeft" align="right" valign="top"><a id="a35db362f33d7dfa86028a678fc806571" name="a35db362f33d7dfa86028a678fc806571"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>sigShowServerNameChanged</b> ()</td></tr>
+<tr class="separator:a35db362f33d7dfa86028a678fc806571 inherit signals_classCParameterConnecter"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header signals_classCParameter"><td colspan="2" onclick="javascript:toggleInherit('signals_classCParameter')"><img src="closed.png" alt="-"/>&#160;信号 继承自 <a class="el" href="classCParameter.html">CParameter</a></td></tr>
+<tr class="memitem:ab5124167d19d94b4e068b6462eefcebb inherit signals_classCParameter"><td class="memItemLeft" align="right" valign="top"><a id="ab5124167d19d94b4e068b6462eefcebb" name="ab5124167d19d94b4e068b6462eefcebb"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>sigChanged</b> ()</td></tr>
+<tr class="memdesc:ab5124167d19d94b4e068b6462eefcebb inherit signals_classCParameter"><td class="mdescLeft">&#160;</td><td class="mdescRight">Notify changed <br /></td></tr>
+<tr class="separator:ab5124167d19d94b4e068b6462eefcebb inherit signals_classCParameter"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_methods_classCParameterConnecter"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_classCParameterConnecter')"><img src="closed.png" alt="-"/>&#160;Protected 成员函数 继承自 <a class="el" href="classCParameterConnecter.html">CParameterConnecter</a></td></tr>
+<tr class="memitem:ac5238ef940dbcbffc6ef125ef48df3ba inherit pro_methods_classCParameterConnecter"><td class="memItemLeft" align="right" valign="top">QByteArray&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCParameterConnecter.html#ac5238ef940dbcbffc6ef125ef48df3ba">PasswordSum</a> (const std::string &amp;password, const std::string &amp;key)</td></tr>
+<tr class="separator:ac5238ef940dbcbffc6ef125ef48df3ba inherit pro_methods_classCParameterConnecter"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9e81380601efcb7659a9504d95500b63 inherit pro_methods_classCParameterConnecter"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCParameterConnecter.html#a9e81380601efcb7659a9504d95500b63">LoadPassword</a> (const QString &amp;szTitle, const QString &amp;szKey, QString &amp;password, QSettings &amp;set)</td></tr>
+<tr class="separator:a9e81380601efcb7659a9504d95500b63 inherit pro_methods_classCParameterConnecter"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afd6a1faa9c6ad2ddb496298b82cfbbaf inherit pro_methods_classCParameterConnecter"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCParameterConnecter.html#afd6a1faa9c6ad2ddb496298b82cfbbaf">SavePassword</a> (const QString &amp;szKey, const QString &amp;password, QSettings &amp;set, bool bSave=false)</td></tr>
+<tr class="separator:afd6a1faa9c6ad2ddb496298b82cfbbaf inherit pro_methods_classCParameterConnecter"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_methods_classCParameter"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_classCParameter')"><img src="closed.png" alt="-"/>&#160;Protected 成员函数 继承自 <a class="el" href="classCParameter.html">CParameter</a></td></tr>
+<tr class="memitem:a35bbee80e1e896d59752ed0dd25e9686 inherit pro_methods_classCParameter"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCParameter.html#a35bbee80e1e896d59752ed0dd25e9686">SetModified</a> (bool bModified=true)</td></tr>
+<tr class="memdesc:a35bbee80e1e896d59752ed0dd25e9686 inherit pro_methods_classCParameter"><td class="mdescLeft">&#160;</td><td class="mdescRight">Must call it when set parameters  <a href="classCParameter.html#a35bbee80e1e896d59752ed0dd25e9686">更多...</a><br /></td></tr>
+<tr class="separator:a35bbee80e1e896d59752ed0dd25e9686 inherit pro_methods_classCParameter"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header properties_classCParameterConnecter"><td colspan="2" onclick="javascript:toggleInherit('properties_classCParameterConnecter')"><img src="closed.png" alt="-"/>&#160;属性 继承自 <a class="el" href="classCParameterConnecter.html">CParameterConnecter</a></td></tr>
+<tr class="memitem:ae6e35c7fd693c9b2ada05e3c7bfa6b4b inherit properties_classCParameterConnecter"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCParameterConnecter.html#ae6e35c7fd693c9b2ada05e3c7bfa6b4b">Name</a></td></tr>
+<tr class="separator:ae6e35c7fd693c9b2ada05e3c7bfa6b4b inherit properties_classCParameterConnecter"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac358398b407e5fc420020faea49168ec inherit properties_classCParameterConnecter"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCParameterConnecter.html#ac358398b407e5fc420020faea49168ec">ServerName</a></td></tr>
+<tr class="separator:ac358398b407e5fc420020faea49168ec inherit properties_classCParameterConnecter"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a36c807102163980cf319139df4f4b2df inherit properties_classCParameterConnecter"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCParameterConnecter.html#a36c807102163980cf319139df4f4b2df">ShowServerName</a></td></tr>
+<tr class="separator:a36c807102163980cf319139df4f4b2df inherit properties_classCParameterConnecter"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5b4aa8029870f98c8b7937185dcea798 inherit properties_classCParameterConnecter"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCParameterConnecter.html#a5b4aa8029870f98c8b7937185dcea798">Host</a></td></tr>
+<tr class="separator:a5b4aa8029870f98c8b7937185dcea798 inherit properties_classCParameterConnecter"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2c689e3b0dae2eba9d846dc4121e74cc inherit properties_classCParameterConnecter"><td class="memItemLeft" align="right" valign="top">quint16&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCParameterConnecter.html#a2c689e3b0dae2eba9d846dc4121e74cc">Port</a></td></tr>
+<tr class="separator:a2c689e3b0dae2eba9d846dc4121e74cc inherit properties_classCParameterConnecter"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4ae98dccff969f54aa3fd1ab7552e5b4 inherit properties_classCParameterConnecter"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCParameterConnecter.html#a4ae98dccff969f54aa3fd1ab7552e5b4">User</a></td></tr>
+<tr class="separator:a4ae98dccff969f54aa3fd1ab7552e5b4 inherit properties_classCParameterConnecter"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6d3b62b440082abcc777e84c5e9bcd46 inherit properties_classCParameterConnecter"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCParameterConnecter.html#a6d3b62b440082abcc777e84c5e9bcd46">Password</a></td></tr>
+<tr class="separator:a6d3b62b440082abcc777e84c5e9bcd46 inherit properties_classCParameterConnecter"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae569a54a909e5d60e6563ca86158ec40 inherit properties_classCParameterConnecter"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCParameterConnecter.html#ae569a54a909e5d60e6563ca86158ec40">SavePassword</a></td></tr>
+<tr class="separator:ae569a54a909e5d60e6563ca86158ec40 inherit properties_classCParameterConnecter"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af316f84c3238a8678029975578d3c3d4 inherit properties_classCParameterConnecter"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCParameterConnecter.html#af316f84c3238a8678029975578d3c3d4">OnlyView</a></td></tr>
+<tr class="separator:af316f84c3238a8678029975578d3c3d4 inherit properties_classCParameterConnecter"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7d693ab48aea06989669c181eecaa42e inherit properties_classCParameterConnecter"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCParameterConnecter.html#a7d693ab48aea06989669c181eecaa42e">LocalCursor</a></td></tr>
+<tr class="separator:a7d693ab48aea06989669c181eecaa42e inherit properties_classCParameterConnecter"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5c86f0e5389faa6efbd85612aefbed4c inherit properties_classCParameterConnecter"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCParameterConnecter.html#a5c86f0e5389faa6efbd85612aefbed4c">Clipboard</a></td></tr>
+<tr class="separator:a5c86f0e5389faa6efbd85612aefbed4c inherit properties_classCParameterConnecter"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a32706fd30b620ef7b0d717938a027fda inherit properties_classCParameterConnecter"><td class="memItemLeft" align="right" valign="top">emProxy&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCParameterConnecter.html#a32706fd30b620ef7b0d717938a027fda">ProxyType</a></td></tr>
+<tr class="separator:a32706fd30b620ef7b0d717938a027fda inherit properties_classCParameterConnecter"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1ff1fbc98dd903382fce66c1408cef7c inherit properties_classCParameterConnecter"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCParameterConnecter.html#a1ff1fbc98dd903382fce66c1408cef7c">ProxyHost</a></td></tr>
+<tr class="separator:a1ff1fbc98dd903382fce66c1408cef7c inherit properties_classCParameterConnecter"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4e33863c44cbb3d72d12348abcf3c1f0 inherit properties_classCParameterConnecter"><td class="memItemLeft" align="right" valign="top">qint16&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCParameterConnecter.html#a4e33863c44cbb3d72d12348abcf3c1f0">ProxyPort</a></td></tr>
+<tr class="separator:a4e33863c44cbb3d72d12348abcf3c1f0 inherit properties_classCParameterConnecter"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a73aa542d8201579fb5d9057bc7ee332c inherit properties_classCParameterConnecter"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCParameterConnecter.html#a73aa542d8201579fb5d9057bc7ee332c">ProxyUser</a></td></tr>
+<tr class="separator:a73aa542d8201579fb5d9057bc7ee332c inherit properties_classCParameterConnecter"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3432b4cb601f09839777faf5321b2119 inherit properties_classCParameterConnecter"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCParameterConnecter.html#a3432b4cb601f09839777faf5321b2119">ProxyPassword</a></td></tr>
+<tr class="separator:a3432b4cb601f09839777faf5321b2119 inherit properties_classCParameterConnecter"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">详细描述</h2>
+<div class="textblock">
+<p class="definition">在文件 <a class="el" href="ParameterRabbitVNC_8h_source.html">ParameterRabbitVNC.h</a> 第 <a class="el" href="ParameterRabbitVNC_8h_source.html#l00006">6</a> 行定义.</p>
+</div><h2 class="groupheader">成员枚举类型说明</h2>
+<a id="a2331286f2cb12d70ee35804f06decaf3" name="a2331286f2cb12d70ee35804f06decaf3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2331286f2cb12d70ee35804f06decaf3">&#9670;&#160;</a></span>COLOR_LEVEL</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum CParameterRabbitVNC::COLOR_LEVEL</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">在文件 <a class="el" href="ParameterRabbitVNC_8h_source.html">ParameterRabbitVNC.h</a> 第 <a class="el" href="ParameterRabbitVNC_8h_source.html#l00023">23</a> 行定义.</p>
+
+</div>
+</div>
+<h2 class="groupheader">构造及析构函数说明</h2>
+<a id="ae89b54b7b1c8cfcbd44ff892101ccda1" name="ae89b54b7b1c8cfcbd44ff892101ccda1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae89b54b7b1c8cfcbd44ff892101ccda1">&#9670;&#160;</a></span>CParameterRabbitVNC()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">CParameterRabbitVNC::CParameterRabbitVNC </td>
+          <td>(</td>
+          <td class="paramtype">QObject *&#160;</td>
+          <td class="paramname"><em>parent</em> = <code>nullptr</code></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">explicit</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">在文件 <a class="el" href="ParameterRabbitVNC_8cpp_source.html">ParameterRabbitVNC.cpp</a> 第 <a class="el" href="ParameterRabbitVNC_8cpp_source.html#l00004">4</a> 行定义.</p>
+
+</div>
+</div>
+<h2 class="groupheader">成员函数说明</h2>
+<a id="aa010f203a6e413a794019d270db0dbab" name="aa010f203a6e413a794019d270db0dbab"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa010f203a6e413a794019d270db0dbab">&#9670;&#160;</a></span>GetAutoSelect()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool CParameterRabbitVNC::GetAutoSelect </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">在文件 <a class="el" href="ParameterRabbitVNC_8cpp_source.html">ParameterRabbitVNC.cpp</a> 第 <a class="el" href="ParameterRabbitVNC_8cpp_source.html#l00115">115</a> 行定义.</p>
+
+</div>
+</div>
+<a id="a567c0967616a6648dcacc9813ed4a7e9" name="a567c0967616a6648dcacc9813ed4a7e9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a567c0967616a6648dcacc9813ed4a7e9">&#9670;&#160;</a></span>GetBufferEndRefresh()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool CParameterRabbitVNC::GetBufferEndRefresh </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">在文件 <a class="el" href="ParameterRabbitVNC_8cpp_source.html">ParameterRabbitVNC.cpp</a> 第 <a class="el" href="ParameterRabbitVNC_8cpp_source.html#l00090">90</a> 行定义.</p>
+
+</div>
+</div>
+<a id="ab8c54936966a37bffddf0d0260011afe" name="ab8c54936966a37bffddf0d0260011afe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab8c54936966a37bffddf0d0260011afe">&#9670;&#160;</a></span>GetCheckCompleted()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool CParameterRabbitVNC::GetCheckCompleted </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Check whether the parameters are complete to decide whether to open the parameter dialog </p>
+<dl class="section return"><dt>返回</dt><dd></dd></dl>
+
+<p>重载 <a class="el" href="classCParameterConnecter.html#a49ae94e3d106be556692b5eb5703eee1">CParameterConnecter</a> .</p>
+
+<p class="definition">在文件 <a class="el" href="ParameterRabbitVNC_8cpp_source.html">ParameterRabbitVNC.cpp</a> 第 <a class="el" href="ParameterRabbitVNC_8cpp_source.html#l00065">65</a> 行定义.</p>
+
+</div>
+</div>
+<a id="a24b943d5eb2522e3b888b97c027c5c3c" name="a24b943d5eb2522e3b888b97c027c5c3c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a24b943d5eb2522e3b888b97c027c5c3c">&#9670;&#160;</a></span>GetColorLevel()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">CParameterRabbitVNC::COLOR_LEVEL CParameterRabbitVNC::GetColorLevel </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">在文件 <a class="el" href="ParameterRabbitVNC_8cpp_source.html">ParameterRabbitVNC.cpp</a> 第 <a class="el" href="ParameterRabbitVNC_8cpp_source.html#l00128">128</a> 行定义.</p>
+
+</div>
+</div>
+<a id="a3c5f98ae6bbfb2bd2d9544648fa291c7" name="a3c5f98ae6bbfb2bd2d9544648fa291c7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3c5f98ae6bbfb2bd2d9544648fa291c7">&#9670;&#160;</a></span>GetCompressLevel()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int CParameterRabbitVNC::GetCompressLevel </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">在文件 <a class="el" href="ParameterRabbitVNC_8cpp_source.html">ParameterRabbitVNC.cpp</a> 第 <a class="el" href="ParameterRabbitVNC_8cpp_source.html#l00167">167</a> 行定义.</p>
+
+</div>
+</div>
+<a id="ae8c93abee5195320a6b176df1c7b9ac3" name="ae8c93abee5195320a6b176df1c7b9ac3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae8c93abee5195320a6b176df1c7b9ac3">&#9670;&#160;</a></span>GetEnableCompressLevel()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool CParameterRabbitVNC::GetEnableCompressLevel </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">在文件 <a class="el" href="ParameterRabbitVNC_8cpp_source.html">ParameterRabbitVNC.cpp</a> 第 <a class="el" href="ParameterRabbitVNC_8cpp_source.html#l00154">154</a> 行定义.</p>
+
+</div>
+</div>
+<a id="ac90ffb3bd9be97b22cf569cf6a9ba016" name="ac90ffb3bd9be97b22cf569cf6a9ba016"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac90ffb3bd9be97b22cf569cf6a9ba016">&#9670;&#160;</a></span>GetEncoding()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int CParameterRabbitVNC::GetEncoding </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">在文件 <a class="el" href="ParameterRabbitVNC_8cpp_source.html">ParameterRabbitVNC.cpp</a> 第 <a class="el" href="ParameterRabbitVNC_8cpp_source.html#l00141">141</a> 行定义.</p>
+
+</div>
+</div>
+<a id="a851fbed47ed2e6230a2d48f5ec013a95" name="a851fbed47ed2e6230a2d48f5ec013a95"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a851fbed47ed2e6230a2d48f5ec013a95">&#9670;&#160;</a></span>GetIce()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool CParameterRabbitVNC::GetIce </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">在文件 <a class="el" href="ParameterRabbitVNC_8cpp_source.html">ParameterRabbitVNC.cpp</a> 第 <a class="el" href="ParameterRabbitVNC_8cpp_source.html#l00206">206</a> 行定义.</p>
+
+</div>
+</div>
+<a id="a55a28a43524f8107c846e3f4449ec81c" name="a55a28a43524f8107c846e3f4449ec81c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a55a28a43524f8107c846e3f4449ec81c">&#9670;&#160;</a></span>GetNoJpeg()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool CParameterRabbitVNC::GetNoJpeg </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">在文件 <a class="el" href="ParameterRabbitVNC_8cpp_source.html">ParameterRabbitVNC.cpp</a> 第 <a class="el" href="ParameterRabbitVNC_8cpp_source.html#l00180">180</a> 行定义.</p>
+
+</div>
+</div>
+<a id="ae9a586cedf5a5b0cd400dda8b2db8963" name="ae9a586cedf5a5b0cd400dda8b2db8963"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae9a586cedf5a5b0cd400dda8b2db8963">&#9670;&#160;</a></span>GetPeerUser()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const QString &amp; CParameterRabbitVNC::GetPeerUser </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">在文件 <a class="el" href="ParameterRabbitVNC_8cpp_source.html">ParameterRabbitVNC.cpp</a> 第 <a class="el" href="ParameterRabbitVNC_8cpp_source.html#l00219">219</a> 行定义.</p>
+
+</div>
+</div>
+<a id="a4fdb6ed4b8b2fb68df6fb809e9723833" name="a4fdb6ed4b8b2fb68df6fb809e9723833"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4fdb6ed4b8b2fb68df6fb809e9723833">&#9670;&#160;</a></span>GetQualityLevel()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int CParameterRabbitVNC::GetQualityLevel </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">在文件 <a class="el" href="ParameterRabbitVNC_8cpp_source.html">ParameterRabbitVNC.cpp</a> 第 <a class="el" href="ParameterRabbitVNC_8cpp_source.html#l00193">193</a> 行定义.</p>
+
+</div>
+</div>
+<a id="a80d2aa348800e21f9d7a95177e0af614" name="a80d2aa348800e21f9d7a95177e0af614"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a80d2aa348800e21f9d7a95177e0af614">&#9670;&#160;</a></span>GetShared()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool CParameterRabbitVNC::GetShared </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">在文件 <a class="el" href="ParameterRabbitVNC_8cpp_source.html">ParameterRabbitVNC.cpp</a> 第 <a class="el" href="ParameterRabbitVNC_8cpp_source.html#l00077">77</a> 行定义.</p>
+
+</div>
+</div>
+<a id="a1f470b00cd21a1d441ffe758e725d23f" name="a1f470b00cd21a1d441ffe758e725d23f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1f470b00cd21a1d441ffe758e725d23f">&#9670;&#160;</a></span>GetSupportsDesktopResize()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool CParameterRabbitVNC::GetSupportsDesktopResize </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">在文件 <a class="el" href="ParameterRabbitVNC_8cpp_source.html">ParameterRabbitVNC.cpp</a> 第 <a class="el" href="ParameterRabbitVNC_8cpp_source.html#l00103">103</a> 行定义.</p>
+
+</div>
+</div>
+<a id="a01e8e46489a0bd7371ae31f195a8ac62" name="a01e8e46489a0bd7371ae31f195a8ac62"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a01e8e46489a0bd7371ae31f195a8ac62">&#9670;&#160;</a></span>Load()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int CParameterRabbitVNC::Load </td>
+          <td>(</td>
+          <td class="paramtype">QSettings &amp;&#160;</td>
+          <td class="paramname"><em>set</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>重载 <a class="el" href="classCParameterConnecter.html">CParameterConnecter</a> .</p>
+
+<p class="definition">在文件 <a class="el" href="ParameterRabbitVNC_8cpp_source.html">ParameterRabbitVNC.cpp</a> 第 <a class="el" href="ParameterRabbitVNC_8cpp_source.html#l00022">22</a> 行定义.</p>
+
+</div>
+</div>
+<a id="ae693783ad80646b3fe1ce7b4243b19d7" name="ae693783ad80646b3fe1ce7b4243b19d7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae693783ad80646b3fe1ce7b4243b19d7">&#9670;&#160;</a></span>Save()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int CParameterRabbitVNC::Save </td>
+          <td>(</td>
+          <td class="paramtype">QSettings &amp;&#160;</td>
+          <td class="paramname"><em>set</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>重载 <a class="el" href="classCParameterConnecter.html">CParameterConnecter</a> .</p>
+
+<p class="definition">在文件 <a class="el" href="ParameterRabbitVNC_8cpp_source.html">ParameterRabbitVNC.cpp</a> 第 <a class="el" href="ParameterRabbitVNC_8cpp_source.html#l00047">47</a> 行定义.</p>
+
+</div>
+</div>
+<a id="a3e33c3795ed64ae2db322fa7e3ee6e41" name="a3e33c3795ed64ae2db322fa7e3ee6e41"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3e33c3795ed64ae2db322fa7e3ee6e41">&#9670;&#160;</a></span>SetAutoSelect()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CParameterRabbitVNC::SetAutoSelect </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>newAutoSelect</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">在文件 <a class="el" href="ParameterRabbitVNC_8cpp_source.html">ParameterRabbitVNC.cpp</a> 第 <a class="el" href="ParameterRabbitVNC_8cpp_source.html#l00120">120</a> 行定义.</p>
+
+</div>
+</div>
+<a id="a1060cd21169195673352aeb142268757" name="a1060cd21169195673352aeb142268757"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1060cd21169195673352aeb142268757">&#9670;&#160;</a></span>SetBufferEndRefresh()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CParameterRabbitVNC::SetBufferEndRefresh </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>newBufferEndRefresh</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">在文件 <a class="el" href="ParameterRabbitVNC_8cpp_source.html">ParameterRabbitVNC.cpp</a> 第 <a class="el" href="ParameterRabbitVNC_8cpp_source.html#l00095">95</a> 行定义.</p>
+
+</div>
+</div>
+<a id="a2c860bf40536bc8ca418b83a539f9cc4" name="a2c860bf40536bc8ca418b83a539f9cc4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2c860bf40536bc8ca418b83a539f9cc4">&#9670;&#160;</a></span>SetColorLevel()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CParameterRabbitVNC::SetColorLevel </td>
+          <td>(</td>
+          <td class="paramtype">COLOR_LEVEL&#160;</td>
+          <td class="paramname"><em>newColorLevel</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">在文件 <a class="el" href="ParameterRabbitVNC_8cpp_source.html">ParameterRabbitVNC.cpp</a> 第 <a class="el" href="ParameterRabbitVNC_8cpp_source.html#l00133">133</a> 行定义.</p>
+
+</div>
+</div>
+<a id="afa76b5032dc634b905da5cecc6dc4a8b" name="afa76b5032dc634b905da5cecc6dc4a8b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afa76b5032dc634b905da5cecc6dc4a8b">&#9670;&#160;</a></span>SetCompressLevel()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CParameterRabbitVNC::SetCompressLevel </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>newCompressLevel</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">在文件 <a class="el" href="ParameterRabbitVNC_8cpp_source.html">ParameterRabbitVNC.cpp</a> 第 <a class="el" href="ParameterRabbitVNC_8cpp_source.html#l00172">172</a> 行定义.</p>
+
+</div>
+</div>
+<a id="aee7ebdae40884165f739470f5324573c" name="aee7ebdae40884165f739470f5324573c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aee7ebdae40884165f739470f5324573c">&#9670;&#160;</a></span>SetEnableCompressLevel()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CParameterRabbitVNC::SetEnableCompressLevel </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>newCompressLevel</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">在文件 <a class="el" href="ParameterRabbitVNC_8cpp_source.html">ParameterRabbitVNC.cpp</a> 第 <a class="el" href="ParameterRabbitVNC_8cpp_source.html#l00159">159</a> 行定义.</p>
+
+</div>
+</div>
+<a id="a96a36f61f3b21c0242e7f5ff23ab8f1c" name="a96a36f61f3b21c0242e7f5ff23ab8f1c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a96a36f61f3b21c0242e7f5ff23ab8f1c">&#9670;&#160;</a></span>SetEncoding()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CParameterRabbitVNC::SetEncoding </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>newEncoding</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">在文件 <a class="el" href="ParameterRabbitVNC_8cpp_source.html">ParameterRabbitVNC.cpp</a> 第 <a class="el" href="ParameterRabbitVNC_8cpp_source.html#l00146">146</a> 行定义.</p>
+
+</div>
+</div>
+<a id="a84537afd9aa1a27e2b203b07f16545da" name="a84537afd9aa1a27e2b203b07f16545da"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a84537afd9aa1a27e2b203b07f16545da">&#9670;&#160;</a></span>SetIce()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CParameterRabbitVNC::SetIce </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>newIce</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">在文件 <a class="el" href="ParameterRabbitVNC_8cpp_source.html">ParameterRabbitVNC.cpp</a> 第 <a class="el" href="ParameterRabbitVNC_8cpp_source.html#l00211">211</a> 行定义.</p>
+
+</div>
+</div>
+<a id="a0d81368bda9236f31523b322759ea13a" name="a0d81368bda9236f31523b322759ea13a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0d81368bda9236f31523b322759ea13a">&#9670;&#160;</a></span>SetNoJpeg()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CParameterRabbitVNC::SetNoJpeg </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>newNoJpeg</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">在文件 <a class="el" href="ParameterRabbitVNC_8cpp_source.html">ParameterRabbitVNC.cpp</a> 第 <a class="el" href="ParameterRabbitVNC_8cpp_source.html#l00185">185</a> 行定义.</p>
+
+</div>
+</div>
+<a id="a99fe9868c1cc7dd176988522d39eae95" name="a99fe9868c1cc7dd176988522d39eae95"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a99fe9868c1cc7dd176988522d39eae95">&#9670;&#160;</a></span>SetPeerUser()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CParameterRabbitVNC::SetPeerUser </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;&#160;</td>
+          <td class="paramname"><em>newPeerUser</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">在文件 <a class="el" href="ParameterRabbitVNC_8cpp_source.html">ParameterRabbitVNC.cpp</a> 第 <a class="el" href="ParameterRabbitVNC_8cpp_source.html#l00224">224</a> 行定义.</p>
+
+</div>
+</div>
+<a id="a468db8e6c8be80ead6ec9da05c6312e1" name="a468db8e6c8be80ead6ec9da05c6312e1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a468db8e6c8be80ead6ec9da05c6312e1">&#9670;&#160;</a></span>SetQualityLevel()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CParameterRabbitVNC::SetQualityLevel </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>newQualityLevel</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">在文件 <a class="el" href="ParameterRabbitVNC_8cpp_source.html">ParameterRabbitVNC.cpp</a> 第 <a class="el" href="ParameterRabbitVNC_8cpp_source.html#l00198">198</a> 行定义.</p>
+
+</div>
+</div>
+<a id="ac0665c5e3828cf95f60b54aa7a1d933d" name="ac0665c5e3828cf95f60b54aa7a1d933d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac0665c5e3828cf95f60b54aa7a1d933d">&#9670;&#160;</a></span>SetShared()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CParameterRabbitVNC::SetShared </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>newShared</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">在文件 <a class="el" href="ParameterRabbitVNC_8cpp_source.html">ParameterRabbitVNC.cpp</a> 第 <a class="el" href="ParameterRabbitVNC_8cpp_source.html#l00082">82</a> 行定义.</p>
+
+</div>
+</div>
+<a id="abf0209d9ca13cfdf958650b958fe176f" name="abf0209d9ca13cfdf958650b958fe176f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abf0209d9ca13cfdf958650b958fe176f">&#9670;&#160;</a></span>SetSupportsDesktopResize()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CParameterRabbitVNC::SetSupportsDesktopResize </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>newSupportsDesktopResize</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">在文件 <a class="el" href="ParameterRabbitVNC_8cpp_source.html">ParameterRabbitVNC.cpp</a> 第 <a class="el" href="ParameterRabbitVNC_8cpp_source.html#l00108">108</a> 行定义.</p>
+
+</div>
+</div>
+<hr/>该类的文档由以下文件生成:<ul>
+<li>/home/runner/work/RabbitRemoteControl/RabbitRemoteControl/Plugins/RabbitVNC/Client/<a class="el" href="ParameterRabbitVNC_8h_source.html">ParameterRabbitVNC.h</a></li>
+<li>/home/runner/work/RabbitRemoteControl/RabbitRemoteControl/Plugins/RabbitVNC/Client/<a class="el" href="ParameterRabbitVNC_8cpp_source.html">ParameterRabbitVNC.cpp</a></li>
+</ul>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+制作者&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5
+</small></address>
+</body>
+</html>

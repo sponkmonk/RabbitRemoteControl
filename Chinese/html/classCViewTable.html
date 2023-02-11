@@ -1,0 +1,613 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="zh">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.9.5"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>玉兔远程控制: CViewTable类 参考</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><img alt="Logo" src="app.ico"/></td>
+  <td id="projectalign">
+   <div id="projectname">玉兔远程控制<span id="projectnumber">&#160;v0.0.26</span>
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.9.5 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','搜索');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">载入中...</div>
+<div class="SRStatus" id="Searching">搜索中...</div>
+<div class="SRStatus" id="NoMatches">未找到</div>
+</div>
+</div>
+</div>
+</div>
+
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Public 成员函数</a> &#124;
+<a href="#pro-methods">Protected 成员函数</a> &#124;
+<a href="classCViewTable-members.html">所有成员列表</a>  </div>
+  <div class="headertitle"><div class="title">CViewTable类 参考<div class="ingroups"><a class="el" href="group__APP.html">程序</a> &raquo; <a class="el" href="group__VIEWER__APP.html">玉兔远程控制程序</a> &raquo; <a class="el" href="group__ViewApi.html">视图应用接口</a></div></div></div>
+</div><!--header-->
+<div class="contents">
+
+<p>The <a class="el" href="classCViewTable.html" title="The CViewTable class">CViewTable</a> class  
+ <a href="classCViewTable.html#details">更多...</a></p>
+
+<p><code>#include &lt;<a class="el" href="ViewTable_8h_source.html">ViewTable.h</a>&gt;</code></p>
+<div class="dynheader">
+类 CViewTable 继承关系图:</div>
+<div class="dyncontent">
+ <div class="center">
+  <img src="classCViewTable.png" usemap="#CViewTable_map" alt=""/>
+  <map id="CViewTable_map" name="CViewTable_map">
+<area href="classCView.html" title="The CView class" alt="CView" shape="rect" coords="0,56,80,80"/>
+  </map>
+</div></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+Public 成员函数</h2></td></tr>
+<tr class="memitem:ab0c45c6e23d4093b2fcb0ec922c3df8b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCViewTable.html#ab0c45c6e23d4093b2fcb0ec922c3df8b">CViewTable</a> (QWidget *parent=nullptr)</td></tr>
+<tr class="separator:ab0c45c6e23d4093b2fcb0ec922c3df8b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad7cf528bedb73684fb665d46a6e19191"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCViewTable.html#ad7cf528bedb73684fb665d46a6e19191">AddView</a> (QWidget *pView) override</td></tr>
+<tr class="memdesc:ad7cf528bedb73684fb665d46a6e19191"><td class="mdescLeft">&#160;</td><td class="mdescRight">QWidget* pView must is same as <a class="el" href="classCConnecter.html#a7c0ed151c37e50f082150b5c0497d37a" title="得到显示视图">CConnecter::GetViewer()</a>  <a href="classCViewTable.html#ad7cf528bedb73684fb665d46a6e19191">更多...</a><br /></td></tr>
+<tr class="separator:ad7cf528bedb73684fb665d46a6e19191"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1695db5668618d87e604affccafe539a"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCViewTable.html#a1695db5668618d87e604affccafe539a">RemoveView</a> (QWidget *pView) override</td></tr>
+<tr class="memdesc:a1695db5668618d87e604affccafe539a"><td class="mdescLeft">&#160;</td><td class="mdescRight">QWidget* pView must is same as <a class="el" href="classCConnecter.html#a7c0ed151c37e50f082150b5c0497d37a" title="得到显示视图">CConnecter::GetViewer()</a>  <a href="classCViewTable.html#a1695db5668618d87e604affccafe539a">更多...</a><br /></td></tr>
+<tr class="separator:a1695db5668618d87e604affccafe539a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aad6552bf55343e52e416177116f4c908"><td class="memItemLeft" align="right" valign="top">virtual QWidget *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCViewTable.html#aad6552bf55343e52e416177116f4c908">GetCurrentView</a> () override</td></tr>
+<tr class="separator:aad6552bf55343e52e416177116f4c908"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad1423366614520a991795530cf787d9a"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCViewTable.html#ad1423366614520a991795530cf787d9a">SetWidowsTitle</a> (QWidget *pView, const QString &amp;szTitle) override</td></tr>
+<tr class="memdesc:ad1423366614520a991795530cf787d9a"><td class="mdescLeft">&#160;</td><td class="mdescRight">The QWidget* pView must is same as <a class="el" href="classCConnecter.html#a7c0ed151c37e50f082150b5c0497d37a" title="得到显示视图">CConnecter::GetViewer()</a>  <a href="classCViewTable.html#ad1423366614520a991795530cf787d9a">更多...</a><br /></td></tr>
+<tr class="separator:ad1423366614520a991795530cf787d9a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a64fa8ed20e45bafb24f4a18af00d4882"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCViewTable.html#a64fa8ed20e45bafb24f4a18af00d4882">SetFullScreen</a> (bool bFull) override</td></tr>
+<tr class="separator:a64fa8ed20e45bafb24f4a18af00d4882"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4ca16a5984823a4180d7c79fd99dcdae"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCViewTable.html#a4ca16a5984823a4180d7c79fd99dcdae">SetAdaptWindows</a> (<a class="el" href="classCFrmViewer.html#a7016012fa654d69746418fa635be420a">CFrmViewer::ADAPT_WINDOWS</a> aw=CFrmViewer::Auto, QWidget *pView=nullptr) override</td></tr>
+<tr class="memdesc:a4ca16a5984823a4180d7c79fd99dcdae"><td class="mdescLeft">&#160;</td><td class="mdescRight">The QWidget* pView must is same as <a class="el" href="classCConnecter.html#a7c0ed151c37e50f082150b5c0497d37a" title="得到显示视图">CConnecter::GetViewer()</a>  <a href="classCViewTable.html#a4ca16a5984823a4180d7c79fd99dcdae">更多...</a><br /></td></tr>
+<tr class="separator:a4ca16a5984823a4180d7c79fd99dcdae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1ef519b547516303651cc6e1d79a9e2f"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCViewTable.html#a1ef519b547516303651cc6e1d79a9e2f">ShowTabBar</a> (bool bShow)</td></tr>
+<tr class="separator:a1ef519b547516303651cc6e1d79a9e2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa1f1492ce1650e4f7d88059f685896dc"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCViewTable.html#aa1f1492ce1650e4f7d88059f685896dc">Screenslot</a> (const QString &amp;szFile, bool bRemoteDesktop=true) override</td></tr>
+<tr class="separator:aa1f1492ce1650e4f7d88059f685896dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab26e922d42f0f6feff8ba1fe3b19149f"><td class="memItemLeft" align="right" valign="top">virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCViewTable.html#ab26e922d42f0f6feff8ba1fe3b19149f">GetZoomFactor</a> () override</td></tr>
+<tr class="separator:ab26e922d42f0f6feff8ba1fe3b19149f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad36726dc293b52bca3d1b34417fd76c6"><td class="memItemLeft" align="right" valign="top">virtual QSize&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCViewTable.html#ad36726dc293b52bca3d1b34417fd76c6">GetDesktopSize</a> () override</td></tr>
+<tr class="separator:ad36726dc293b52bca3d1b34417fd76c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_classCView"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classCView')"><img src="closed.png" alt="-"/>&#160;Public 成员函数 继承自 <a class="el" href="classCView.html">CView</a></td></tr>
+<tr class="memitem:a1c47469124f6527640f3b66e9901239b inherit pub_methods_classCView"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCView.html#a1c47469124f6527640f3b66e9901239b">CView</a> (QWidget *parent=nullptr)</td></tr>
+<tr class="separator:a1c47469124f6527640f3b66e9901239b inherit pub_methods_classCView"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7e651d3bc8b112c7a0a65c9b336e6390 inherit pub_methods_classCView"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCView.html#a7e651d3bc8b112c7a0a65c9b336e6390">AddView</a> (QWidget *pView)=0</td></tr>
+<tr class="memdesc:a7e651d3bc8b112c7a0a65c9b336e6390 inherit pub_methods_classCView"><td class="mdescLeft">&#160;</td><td class="mdescRight">QWidget* pView must is same as <a class="el" href="classCConnecter.html#a7c0ed151c37e50f082150b5c0497d37a" title="得到显示视图">CConnecter::GetViewer()</a>  <a href="classCView.html#a7e651d3bc8b112c7a0a65c9b336e6390">更多...</a><br /></td></tr>
+<tr class="separator:a7e651d3bc8b112c7a0a65c9b336e6390 inherit pub_methods_classCView"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad730d6191dc8256f41a9eb2442f1fac8 inherit pub_methods_classCView"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCView.html#ad730d6191dc8256f41a9eb2442f1fac8">RemoveView</a> (QWidget *pView)=0</td></tr>
+<tr class="memdesc:ad730d6191dc8256f41a9eb2442f1fac8 inherit pub_methods_classCView"><td class="mdescLeft">&#160;</td><td class="mdescRight">QWidget* pView must is same as <a class="el" href="classCConnecter.html#a7c0ed151c37e50f082150b5c0497d37a" title="得到显示视图">CConnecter::GetViewer()</a>  <a href="classCView.html#ad730d6191dc8256f41a9eb2442f1fac8">更多...</a><br /></td></tr>
+<tr class="separator:ad730d6191dc8256f41a9eb2442f1fac8 inherit pub_methods_classCView"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a83c27ae1c59e01887396630801a3c622 inherit pub_methods_classCView"><td class="memItemLeft" align="right" valign="top">virtual QWidget *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCView.html#a83c27ae1c59e01887396630801a3c622">GetCurrentView</a> ()=0</td></tr>
+<tr class="separator:a83c27ae1c59e01887396630801a3c622 inherit pub_methods_classCView"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8c3c98da620a1ea04f56c0516d7ba412 inherit pub_methods_classCView"><td class="memItemLeft" align="right" valign="top"><a id="a8c3c98da620a1ea04f56c0516d7ba412" name="a8c3c98da620a1ea04f56c0516d7ba412"></a>
+virtual int&#160;</td><td class="memItemRight" valign="bottom"><b>SetFullScreen</b> (bool bFull)=0</td></tr>
+<tr class="separator:a8c3c98da620a1ea04f56c0516d7ba412 inherit pub_methods_classCView"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a506abe042d3b91f93177c8e9364c6c1a inherit pub_methods_classCView"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCView.html#a506abe042d3b91f93177c8e9364c6c1a">SetWidowsTitle</a> (QWidget *pView, const QString &amp;szTitle)=0</td></tr>
+<tr class="memdesc:a506abe042d3b91f93177c8e9364c6c1a inherit pub_methods_classCView"><td class="mdescLeft">&#160;</td><td class="mdescRight">The QWidget* pView must is same as <a class="el" href="classCConnecter.html#a7c0ed151c37e50f082150b5c0497d37a" title="得到显示视图">CConnecter::GetViewer()</a>  <a href="classCView.html#a506abe042d3b91f93177c8e9364c6c1a">更多...</a><br /></td></tr>
+<tr class="separator:a506abe042d3b91f93177c8e9364c6c1a inherit pub_methods_classCView"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae89c600b1806f8dd72861fa23beee781 inherit pub_methods_classCView"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCView.html#ae89c600b1806f8dd72861fa23beee781">SetAdaptWindows</a> (<a class="el" href="classCFrmViewer.html#a7016012fa654d69746418fa635be420a">CFrmViewer::ADAPT_WINDOWS</a> aw=CFrmViewer::Auto, QWidget *pView=nullptr)=0</td></tr>
+<tr class="memdesc:ae89c600b1806f8dd72861fa23beee781 inherit pub_methods_classCView"><td class="mdescLeft">&#160;</td><td class="mdescRight">The QWidget* pView must is same as <a class="el" href="classCConnecter.html#a7c0ed151c37e50f082150b5c0497d37a" title="得到显示视图">CConnecter::GetViewer()</a>  <a href="classCView.html#ae89c600b1806f8dd72861fa23beee781">更多...</a><br /></td></tr>
+<tr class="separator:ae89c600b1806f8dd72861fa23beee781 inherit pub_methods_classCView"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8decaae0dd8c9132875f9b0c67f2d246 inherit pub_methods_classCView"><td class="memItemLeft" align="right" valign="top"><a id="a8decaae0dd8c9132875f9b0c67f2d246" name="a8decaae0dd8c9132875f9b0c67f2d246"></a>
+virtual double&#160;</td><td class="memItemRight" valign="bottom"><b>GetZoomFactor</b> ()=0</td></tr>
+<tr class="separator:a8decaae0dd8c9132875f9b0c67f2d246 inherit pub_methods_classCView"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a54b1d4733517da2e0b9c7c593a789138 inherit pub_methods_classCView"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCView.html#a54b1d4733517da2e0b9c7c593a789138">Screenslot</a> (const QString &amp;szFile, bool bRemoteDesktop=true)=0</td></tr>
+<tr class="separator:a54b1d4733517da2e0b9c7c593a789138 inherit pub_methods_classCView"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9f9c939f50b5d5980a0b3a452fdd62ee inherit pub_methods_classCView"><td class="memItemLeft" align="right" valign="top"><a id="a9f9c939f50b5d5980a0b3a452fdd62ee" name="a9f9c939f50b5d5980a0b3a452fdd62ee"></a>
+virtual QSize&#160;</td><td class="memItemRight" valign="bottom"><b>GetDesktopSize</b> ()=0</td></tr>
+<tr class="separator:a9f9c939f50b5d5980a0b3a452fdd62ee inherit pub_methods_classCView"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
+Protected 成员函数</h2></td></tr>
+<tr class="memitem:a9ade41247f14fed5cda099d343f5e38c"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCViewTable.html#a9ade41247f14fed5cda099d343f5e38c">resizeEvent</a> (QResizeEvent *event) override</td></tr>
+<tr class="separator:a9ade41247f14fed5cda099d343f5e38c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="inherited" name="inherited"></a>
+额外继承的成员函数</h2></td></tr>
+<tr class="inherit_header pub_slots_classCView"><td colspan="2" onclick="javascript:toggleInherit('pub_slots_classCView')"><img src="closed.png" alt="-"/>&#160;Public 槽 继承自 <a class="el" href="classCView.html">CView</a></td></tr>
+<tr class="memitem:a0466cb04d00ff3d57e42856c8dc96e09 inherit pub_slots_classCView"><td class="memItemLeft" align="right" valign="top"><a id="a0466cb04d00ff3d57e42856c8dc96e09" name="a0466cb04d00ff3d57e42856c8dc96e09"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>slotSystemCombination</b> ()=0</td></tr>
+<tr class="separator:a0466cb04d00ff3d57e42856c8dc96e09 inherit pub_slots_classCView"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a508d2a511ae08aacdce85c5f9c344d77 inherit pub_slots_classCView"><td class="memItemLeft" align="right" valign="top"><a id="a508d2a511ae08aacdce85c5f9c344d77" name="a508d2a511ae08aacdce85c5f9c344d77"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>slotZoomIn</b> ()=0</td></tr>
+<tr class="separator:a508d2a511ae08aacdce85c5f9c344d77 inherit pub_slots_classCView"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a85b20e836a9f9dbf81243f92f25db197 inherit pub_slots_classCView"><td class="memItemLeft" align="right" valign="top"><a id="a85b20e836a9f9dbf81243f92f25db197" name="a85b20e836a9f9dbf81243f92f25db197"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>slotZoomOut</b> ()=0</td></tr>
+<tr class="separator:a85b20e836a9f9dbf81243f92f25db197 inherit pub_slots_classCView"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1744479aa91383094ab78fcea0e7c7ff inherit pub_slots_classCView"><td class="memItemLeft" align="right" valign="top"><a id="a1744479aa91383094ab78fcea0e7c7ff" name="a1744479aa91383094ab78fcea0e7c7ff"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>slotZoomFactor</b> (double v)=0</td></tr>
+<tr class="separator:a1744479aa91383094ab78fcea0e7c7ff inherit pub_slots_classCView"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header signals_classCView"><td colspan="2" onclick="javascript:toggleInherit('signals_classCView')"><img src="closed.png" alt="-"/>&#160;信号 继承自 <a class="el" href="classCView.html">CView</a></td></tr>
+<tr class="memitem:a4d0f07d80eef2ab2dc1dffc229609876 inherit signals_classCView"><td class="memItemLeft" align="right" valign="top"><a id="a4d0f07d80eef2ab2dc1dffc229609876" name="a4d0f07d80eef2ab2dc1dffc229609876"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>sigCloseView</b> (const QWidget *pView)</td></tr>
+<tr class="separator:a4d0f07d80eef2ab2dc1dffc229609876 inherit signals_classCView"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4498d69af92d3d0aedcb5860ca0548de inherit signals_classCView"><td class="memItemLeft" align="right" valign="top"><a id="a4498d69af92d3d0aedcb5860ca0548de" name="a4498d69af92d3d0aedcb5860ca0548de"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>sigAdaptWindows</b> (const <a class="el" href="classCFrmViewer.html#a7016012fa654d69746418fa635be420a">CFrmViewer::ADAPT_WINDOWS</a> aw)</td></tr>
+<tr class="separator:a4498d69af92d3d0aedcb5860ca0548de inherit signals_classCView"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">详细描述</h2>
+<div class="textblock"><p >The <a class="el" href="classCViewTable.html" title="The CViewTable class">CViewTable</a> class </p>
+
+<p class="definition">在文件 <a class="el" href="ViewTable_8h_source.html">ViewTable.h</a> 第 <a class="el" href="ViewTable_8h_source.html#l00014">14</a> 行定义.</p>
+</div><h2 class="groupheader">构造及析构函数说明</h2>
+<a id="ab0c45c6e23d4093b2fcb0ec922c3df8b" name="ab0c45c6e23d4093b2fcb0ec922c3df8b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab0c45c6e23d4093b2fcb0ec922c3df8b">&#9670;&#160;</a></span>CViewTable()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">CViewTable::CViewTable </td>
+          <td>(</td>
+          <td class="paramtype">QWidget *&#160;</td>
+          <td class="paramname"><em>parent</em> = <code>nullptr</code></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">explicit</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">在文件 <a class="el" href="ViewTable_8cpp_source.html">ViewTable.cpp</a> 第 <a class="el" href="ViewTable_8cpp_source.html#l00014">14</a> 行定义.</p>
+
+</div>
+</div>
+<a id="a176275d0493e7c22d6bd01692ba114b7" name="a176275d0493e7c22d6bd01692ba114b7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a176275d0493e7c22d6bd01692ba114b7">&#9670;&#160;</a></span>~CViewTable()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">CViewTable::~CViewTable </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">在文件 <a class="el" href="ViewTable_8cpp_source.html">ViewTable.cpp</a> 第 <a class="el" href="ViewTable_8cpp_source.html#l00045">45</a> 行定义.</p>
+
+</div>
+</div>
+<h2 class="groupheader">成员函数说明</h2>
+<a id="ad7cf528bedb73684fb665d46a6e19191" name="ad7cf528bedb73684fb665d46a6e19191"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad7cf528bedb73684fb665d46a6e19191">&#9670;&#160;</a></span>AddView()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int CViewTable::AddView </td>
+          <td>(</td>
+          <td class="paramtype">QWidget *&#160;</td>
+          <td class="paramname"><em>pView</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>QWidget* pView must is same as <a class="el" href="classCConnecter.html#a7c0ed151c37e50f082150b5c0497d37a" title="得到显示视图">CConnecter::GetViewer()</a> </p>
+
+<p>实现了 <a class="el" href="classCView.html#a7e651d3bc8b112c7a0a65c9b336e6390">CView</a>.</p>
+
+<p class="definition">在文件 <a class="el" href="ViewTable_8cpp_source.html">ViewTable.cpp</a> 第 <a class="el" href="ViewTable_8cpp_source.html#l00094">94</a> 行定义.</p>
+
+</div>
+</div>
+<a id="aad6552bf55343e52e416177116f4c908" name="aad6552bf55343e52e416177116f4c908"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aad6552bf55343e52e416177116f4c908">&#9670;&#160;</a></span>GetCurrentView()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QWidget * CViewTable::GetCurrentView </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<dl class="section note"><dt>注解</dt><dd>The return QWidget* must is same as <a class="el" href="classCConnecter.html#a7c0ed151c37e50f082150b5c0497d37a" title="得到显示视图">CConnecter::GetViewer()</a> </dd></dl>
+
+<p>实现了 <a class="el" href="classCView.html#a83c27ae1c59e01887396630801a3c622">CView</a>.</p>
+
+<p class="definition">在文件 <a class="el" href="ViewTable_8cpp_source.html">ViewTable.cpp</a> 第 <a class="el" href="ViewTable_8cpp_source.html#l00267">267</a> 行定义.</p>
+
+</div>
+</div>
+<a id="ad36726dc293b52bca3d1b34417fd76c6" name="ad36726dc293b52bca3d1b34417fd76c6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad36726dc293b52bca3d1b34417fd76c6">&#9670;&#160;</a></span>GetDesktopSize()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QSize CViewTable::GetDesktopSize </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>实现了 <a class="el" href="classCView.html">CView</a>.</p>
+
+<p class="definition">在文件 <a class="el" href="ViewTable_8cpp_source.html">ViewTable.cpp</a> 第 <a class="el" href="ViewTable_8cpp_source.html#l00285">285</a> 行定义.</p>
+
+</div>
+</div>
+<a id="ab26e922d42f0f6feff8ba1fe3b19149f" name="ab26e922d42f0f6feff8ba1fe3b19149f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab26e922d42f0f6feff8ba1fe3b19149f">&#9670;&#160;</a></span>GetZoomFactor()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double CViewTable::GetZoomFactor </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>实现了 <a class="el" href="classCView.html">CView</a>.</p>
+
+<p class="definition">在文件 <a class="el" href="ViewTable_8cpp_source.html">ViewTable.cpp</a> 第 <a class="el" href="ViewTable_8cpp_source.html#l00207">207</a> 行定义.</p>
+
+</div>
+</div>
+<a id="a1695db5668618d87e604affccafe539a" name="a1695db5668618d87e604affccafe539a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1695db5668618d87e604affccafe539a">&#9670;&#160;</a></span>RemoveView()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int CViewTable::RemoveView </td>
+          <td>(</td>
+          <td class="paramtype">QWidget *&#160;</td>
+          <td class="paramname"><em>pView</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>QWidget* pView must is same as <a class="el" href="classCConnecter.html#a7c0ed151c37e50f082150b5c0497d37a" title="得到显示视图">CConnecter::GetViewer()</a> </p>
+
+<p>实现了 <a class="el" href="classCView.html#ad730d6191dc8256f41a9eb2442f1fac8">CView</a>.</p>
+
+<p class="definition">在文件 <a class="el" href="ViewTable_8cpp_source.html">ViewTable.cpp</a> 第 <a class="el" href="ViewTable_8cpp_source.html#l00115">115</a> 行定义.</p>
+
+</div>
+</div>
+<a id="a9ade41247f14fed5cda099d343f5e38c" name="a9ade41247f14fed5cda099d343f5e38c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9ade41247f14fed5cda099d343f5e38c">&#9670;&#160;</a></span>resizeEvent()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CViewTable::resizeEvent </td>
+          <td>(</td>
+          <td class="paramtype">QResizeEvent *&#160;</td>
+          <td class="paramname"><em>event</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">在文件 <a class="el" href="ViewTable_8cpp_source.html">ViewTable.cpp</a> 第 <a class="el" href="ViewTable_8cpp_source.html#l00277">277</a> 行定义.</p>
+
+</div>
+</div>
+<a id="aa1f1492ce1650e4f7d88059f685896dc" name="aa1f1492ce1650e4f7d88059f685896dc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa1f1492ce1650e4f7d88059f685896dc">&#9670;&#160;</a></span>Screenslot()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int CViewTable::Screenslot </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;&#160;</td>
+          <td class="paramname"><em>szFile</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>bRemoteDesktop</em> = <code>true</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">szFile</td><td>save file </td></tr>
+    <tr><td class="paramname">bRemoteDesktop</td><td>slot remote desktop </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回</dt><dd></dd></dl>
+
+<p>实现了 <a class="el" href="classCView.html#a54b1d4733517da2e0b9c7c593a789138">CView</a>.</p>
+
+<p class="definition">在文件 <a class="el" href="ViewTable_8cpp_source.html">ViewTable.cpp</a> 第 <a class="el" href="ViewTable_8cpp_source.html#l00153">153</a> 行定义.</p>
+
+</div>
+</div>
+<a id="a4ca16a5984823a4180d7c79fd99dcdae" name="a4ca16a5984823a4180d7c79fd99dcdae"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4ca16a5984823a4180d7c79fd99dcdae">&#9670;&#160;</a></span>SetAdaptWindows()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CViewTable::SetAdaptWindows </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classCFrmViewer.html#a7016012fa654d69746418fa635be420a">CFrmViewer::ADAPT_WINDOWS</a>&#160;</td>
+          <td class="paramname"><em>aw</em> = <code>CFrmViewer::Auto</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">QWidget *&#160;</td>
+          <td class="paramname"><em>pView</em> = <code>nullptr</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The QWidget* pView must is same as <a class="el" href="classCConnecter.html#a7c0ed151c37e50f082150b5c0497d37a" title="得到显示视图">CConnecter::GetViewer()</a> </p>
+
+<p>实现了 <a class="el" href="classCView.html#ae89c600b1806f8dd72861fa23beee781">CView</a>.</p>
+
+<p class="definition">在文件 <a class="el" href="ViewTable_8cpp_source.html">ViewTable.cpp</a> 第 <a class="el" href="ViewTable_8cpp_source.html#l00187">187</a> 行定义.</p>
+
+</div>
+</div>
+<a id="a64fa8ed20e45bafb24f4a18af00d4882" name="a64fa8ed20e45bafb24f4a18af00d4882"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a64fa8ed20e45bafb24f4a18af00d4882">&#9670;&#160;</a></span>SetFullScreen()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int CViewTable::SetFullScreen </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>bFull</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>实现了 <a class="el" href="classCView.html">CView</a>.</p>
+
+<p class="definition">在文件 <a class="el" href="ViewTable_8cpp_source.html">ViewTable.cpp</a> 第 <a class="el" href="ViewTable_8cpp_source.html#l00134">134</a> 行定义.</p>
+
+</div>
+</div>
+<a id="ad1423366614520a991795530cf787d9a" name="ad1423366614520a991795530cf787d9a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad1423366614520a991795530cf787d9a">&#9670;&#160;</a></span>SetWidowsTitle()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CViewTable::SetWidowsTitle </td>
+          <td>(</td>
+          <td class="paramtype">QWidget *&#160;</td>
+          <td class="paramname"><em>pView</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const QString &amp;&#160;</td>
+          <td class="paramname"><em>szTitle</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The QWidget* pView must is same as <a class="el" href="classCConnecter.html#a7c0ed151c37e50f082150b5c0497d37a" title="得到显示视图">CConnecter::GetViewer()</a> </p>
+
+<p>实现了 <a class="el" href="classCView.html#a506abe042d3b91f93177c8e9364c6c1a">CView</a>.</p>
+
+<p class="definition">在文件 <a class="el" href="ViewTable_8cpp_source.html">ViewTable.cpp</a> 第 <a class="el" href="ViewTable_8cpp_source.html#l00126">126</a> 行定义.</p>
+
+</div>
+</div>
+<a id="a1ef519b547516303651cc6e1d79a9e2f" name="a1ef519b547516303651cc6e1d79a9e2f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1ef519b547516303651cc6e1d79a9e2f">&#9670;&#160;</a></span>ShowTabBar()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int CViewTable::ShowTabBar </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>bShow</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">在文件 <a class="el" href="ViewTable_8cpp_source.html">ViewTable.cpp</a> 第 <a class="el" href="ViewTable_8cpp_source.html#l00147">147</a> 行定义.</p>
+
+</div>
+</div>
+<hr/>该类的文档由以下文件生成:<ul>
+<li>/home/runner/work/RabbitRemoteControl/RabbitRemoteControl/App/Client/<a class="el" href="ViewTable_8h_source.html">ViewTable.h</a></li>
+<li>/home/runner/work/RabbitRemoteControl/RabbitRemoteControl/App/Client/<a class="el" href="ViewTable_8cpp_source.html">ViewTable.cpp</a></li>
+</ul>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+制作者&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5
+</small></address>
+</body>
+</html>

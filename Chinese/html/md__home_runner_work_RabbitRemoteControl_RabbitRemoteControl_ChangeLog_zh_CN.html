@@ -1,0 +1,390 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="zh">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.9.5"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>玉兔远程控制: 修改日志</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><img alt="Logo" src="app.ico"/></td>
+  <td id="projectalign">
+   <div id="projectname">玉兔远程控制<span id="projectnumber">&#160;v0.0.26</span>
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.9.5 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','搜索');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">载入中...</div>
+<div class="SRStatus" id="Searching">搜索中...</div>
+<div class="SRStatus" id="NoMatches">未找到</div>
+</div>
+</div>
+</div>
+</div>
+
+</div><!-- top -->
+<div><div class="header">
+  <div class="headertitle"><div class="title">修改日志 </div></div>
+</div><!--header-->
+<div class="contents">
+<div class="textblock"><h2><a class="anchor" id="autotoc_md36"></a>
+v0.0.26</h2>
+<ul>
+<li>FreeRDP:<ul>
+<li>增加重定向<ul>
+<li>音频输出、输入</li>
+<li>驱动器(文件)</li>
+<li>打印机</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>应用程序增加打开连接配置列表窗口</li>
+<li>重命名 tag.sh 为 deploy.sh</li>
+</ul>
+<h2><a class="anchor" id="autotoc_md37"></a>
+v0.0.25</h2>
+<ul>
+<li>为自动更新，修改自动化编译分发</li>
+<li>修改翻译</li>
+<li>增加图标主题</li>
+<li>FreeRDP:<ul>
+<li>完成的剪切板功能<ul>
+<li>文件复制<ul>
+<li>客户端到服务器端</li>
+<li>服务端到客户端（复制目录时会程序会崩溃）</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>修改收藏夹右键菜单错误</li>
+</ul>
+<h2><a class="anchor" id="autotoc_md38"></a>
+v0.0.24</h2>
+<ul>
+<li>安装 FreeRDP 动态库</li>
+</ul>
+<h2><a class="anchor" id="autotoc_md39"></a>
+v0.0.23</h2>
+<ul>
+<li>重命名<ul>
+<li>重命名目录 viewer 到 client</li>
+<li>重命名类 CPluginViewer 到 <a class="el" href="classCPluginClient.html" title="客户端插件接口。建立 CConnecter 实例，它由协议插件实现。 可以与 CConnecterDesktopThread 一起使用，用于连接是阻塞模型的。">CPluginClient</a></li>
+<li>重命名类 CPluginViewerThread 到 <a class="el" href="classCPluginClientThread.html" title="它默认启动一个后台线程。 它与 CConnecterDesktop 一起可实现一个后台线程处理多个远程桌面连接。">CPluginClientThread</a></li>
+<li>重命名类 CParameterViewer 到 <a class="el" href="classCParameterClient.html" title="客户端库(CClient)参数接口。它包含客户端库(CClient)的参数。 或者插件需要使用的参数的初始化值。此类仅在客户端库(CClient)和插件内有效。 应用程序不能直接访问，只能通过 CCli...">CParameterClient</a></li>
+<li>重命名类 CManagePlugin 到 <a class="el" href="classCClient.html" title="管理插件和连接者">CClient</a></li>
+<li>重命名函数 CConnecter::SetParameterViewer 到 <a class="el" href="classCConnecter.html#a64b2286b4ea91a7f9356e1e693696200">CConnecter::SetParameterClient</a></li>
+</ul>
+</li>
+<li>FreeRDP:<ul>
+<li>完成的剪切板功能<ul>
+<li>文本</li>
+<li>HTML</li>
+<li>图片</li>
+</ul>
+</li>
+<li>增加喇叭声</li>
+</ul>
+</li>
+</ul>
+<h2><a class="anchor" id="autotoc_md40"></a>
+v0.0.22</h2>
+<ul>
+<li>增加键盘挂钩<ul>
+<li>Windows</li>
+</ul>
+</li>
+<li>重构参数</li>
+</ul>
+<h2><a class="anchor" id="autotoc_md41"></a>
+v0.0.21</h2>
+<ul>
+<li>在 Windows 下，增加导出崩溃文件</li>
+<li>在 Windows 下，安装 MSVC 系统库。详见: RabbitCommon</li>
+<li>修复除 0 引起的崩溃。影响前面所有发行版本。此错误是 RabbitCommon 引起的。 详见：RabbitCommon: 7ed300a206d8a36c30003b6c19ad181682d0ff5f</li>
+<li>Viewer: 在显示对话框中显示 QCheckBox</li>
+<li>Viewer: 优化 <a class="el" href="classCConnecter.html#ae4cbb2eba65bc7ea0eee3eb0f1738cae" title="显示顺序：">CConnecter::Name()</a> 和 <a class="el" href="classCConnecter.html#af6b61af281d6d596cd3b35494e29c239" title="当前连接名。例如：服务名或 IP:端口">CConnecter::ServerName()</a></li>
+</ul>
+<h2><a class="anchor" id="autotoc_md42"></a>
+v0.0.20</h2>
+<ul>
+<li>为 Windows 动态库增加版本后缀。详见: RabbitCommon</li>
+<li>RabbitCommon 增加 openssl 版本判断。</li>
+</ul>
+<h2><a class="anchor" id="autotoc_md43"></a>
+v0.0.19</h2>
+<ul>
+<li>增加 OpenGL 显示窗口</li>
+<li>增加打开日志功能</li>
+<li>增加 ICE<ul>
+<li>RabbitVNC</li>
+<li>TigerVNC</li>
+</ul>
+</li>
+</ul>
+<h2><a class="anchor" id="autotoc_md44"></a>
+v0.0.18</h2>
+<ul>
+<li>整理文档</li>
+<li>服务<ul>
+<li>增加服务配置程序</li>
+<li>增加 FreeRDP 服务</li>
+<li>增加获得光标<ul>
+<li>linux</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h2><a class="anchor" id="autotoc_md45"></a>
+v0.0.17</h2>
+<ul>
+<li>修复从服务器端断连，没有释放线程错误</li>
+<li>修改 FreeRDP 剪切板<ul>
+<li>文本</li>
+<li>图像</li>
+</ul>
+</li>
+</ul>
+<h2><a class="anchor" id="autotoc_md46"></a>
+v0.0.16</h2>
+<ul>
+<li><a class="el" href="classCConnecter.html" title="描述连接者应用接口。">CConnecter</a> 增加阻塞显示对话框</li>
+<li>增加允许系统托盘图标设置</li>
+<li>增加玉兔插件</li>
+<li>修复一些错误<ul>
+<li>工具栏显示错误</li>
+</ul>
+</li>
+<li>支持 Qt6</li>
+</ul>
+<h2><a class="anchor" id="autotoc_md47"></a>
+v0.0.15</h2>
+<ul>
+<li>重构 <a class="el" href="classCConnecter.html" title="描述连接者应用接口。">CConnecter</a> 参数接口</li>
+<li>重构 CConneterDesktop 接口<ul>
+<li>增加 CConneterDesktopThread</li>
+<li>增加 PluginViewerThread</li>
+</ul>
+</li>
+<li>修改文档</li>
+<li>增加连接时输入密码</li>
+<li>增加连接显示消息对话框</li>
+<li>启动时增加恢复上次关闭的连接</li>
+<li>修复一些错误<ul>
+<li>修复得到名称、服务名错误</li>
+<li>修复收藏夹错误</li>
+</ul>
+</li>
+</ul>
+<h2><a class="anchor" id="autotoc_md48"></a>
+v0.0.14</h2>
+<ul>
+<li>增加系统托盘图标</li>
+<li>修改文档</li>
+</ul>
+<h2><a class="anchor" id="autotoc_md49"></a>
+v0.0.13</h2>
+<ul>
+<li>修改界面<ul>
+<li>增加克隆连接</li>
+<li>增加收藏夹功能</li>
+</ul>
+</li>
+<li>更新管理密码<ul>
+<li>增加允许查看密码</li>
+</ul>
+</li>
+</ul>
+<h2><a class="anchor" id="autotoc_md50"></a>
+v0.0.12</h2>
+<ul>
+<li>增加设置</li>
+<li>优化保存密码</li>
+<li>优化主窗口、工具条</li>
+<li>修复窗口截屏错误</li>
+</ul>
+<h2><a class="anchor" id="autotoc_md51"></a>
+v0.0.11</h2>
+<ul>
+<li>修复 View 在正常窗口时不能获得焦点错误</li>
+<li>增加其它语言翻译文件</li>
+<li>修复 freerdp 编译错误</li>
+<li>增加连接时提示密码输入框<ul>
+<li>TigerVNC</li>
+<li>LibNVCServer</li>
+<li>FreeRDP</li>
+</ul>
+</li>
+</ul>
+<h2><a class="anchor" id="autotoc_md52"></a>
+v0.0.10</h2>
+<ul>
+<li>增加缩放视图</li>
+<li>修复 libvncserver 初始化客户端错误</li>
+<li>重构 Viewer 参数</li>
+<li>增加截屏</li>
+</ul>
+<h2><a class="anchor" id="autotoc_md53"></a>
+v0.0.9</h2>
+<ul>
+<li>增加服务器<ul>
+<li>RFB<ul>
+<li>TigerVnc</li>
+<li>LIBVNC</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>增加 ICE</li>
+<li>重构框架</li>
+<li>增加 Github actions 自动编译与分发</li>
+<li>应用：增加由鼠标移动自动调整窗口滚动条</li>
+<li>修复一些BUG</li>
+</ul>
+<h2><a class="anchor" id="autotoc_md54"></a>
+v0.0.8</h2>
+<ul>
+<li>修复全屏时 Tab 错误</li>
+<li>增加代理<ul>
+<li>更新 TigerVnc 库</li>
+</ul>
+</li>
+<li>增加最近打开菜单</li>
+<li>增加文档<ul>
+<li>增加编译文档</li>
+<li>用 Doxygen 生成开发文档</li>
+</ul>
+</li>
+</ul>
+<h2><a class="anchor" id="autotoc_md55"></a>
+v0.0.7</h2>
+<ul>
+<li>用更新后的 RabbitCommon::CStyle 改变样式</li>
+</ul>
+<h2><a class="anchor" id="autotoc_md56"></a>
+v0.0.6</h2>
+<ul>
+<li>用QUIWidget修改界面，它能自定义窗口标题栏样式</li>
+</ul>
+<h2><a class="anchor" id="autotoc_md57"></a>
+v0.0.5</h2>
+<ul>
+<li>修复: LIBVNC光标问题</li>
+<li>支持 Qt6</li>
+<li>修复: 端口范围问题</li>
+</ul>
+<h2><a class="anchor" id="autotoc_md58"></a>
+v0.0.4</h2>
+<ul>
+<li>完善自动化编译与分发</li>
+<li>增加发送 ctl+alt+del</li>
+</ul>
+<h2><a class="anchor" id="autotoc_md59"></a>
+v0.0.3</h2>
+<ul>
+<li>修复一些 BUG</li>
+</ul>
+<h2><a class="anchor" id="autotoc_md60"></a>
+v0.0.2</h2>
+<ul>
+<li>修改插件相关接口</li>
+<li>修改自动化接口</li>
+<li>增加终端</li>
+<li>增加 Telnet</li>
+<li>增加 SSH</li>
+<li>RDP</li>
+</ul>
+<h2><a class="anchor" id="autotoc_md61"></a>
+v0.0.1</h2>
+<ul>
+<li>界面<ul>
+<li>屏幕缩放</li>
+</ul>
+</li>
+<li>支持的协议<ul>
+<li>RFB</li>
+</ul>
+</li>
+<li>显示<ul>
+<li>屏幕</li>
+<li>光标</li>
+</ul>
+</li>
+<li>输入事件<ul>
+<li>键盘</li>
+<li>鼠标</li>
+</ul>
+</li>
+<li>剪切板(文本)<ul>
+<li>Rdp</li>
+</ul>
+</li>
+<li>显示<ul>
+<li>屏幕</li>
+<li>光标</li>
+</ul>
+</li>
+<li>输入事件<ul>
+<li>鼠标</li>
+<li>键盘</li>
+</ul>
+</li>
+<li>剪切板 </li>
+</ul>
+</div></div><!-- contents -->
+</div><!-- PageDoc -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+制作者&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5
+</small></address>
+</body>
+</html>

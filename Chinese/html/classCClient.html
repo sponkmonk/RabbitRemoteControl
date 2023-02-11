@@ -1,0 +1,436 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="zh">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.9.5"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>玉兔远程控制: CClient类 参考</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><img alt="Logo" src="app.ico"/></td>
+  <td id="projectalign">
+   <div id="projectname">玉兔远程控制<span id="projectnumber">&#160;v0.0.26</span>
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.9.5 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','搜索');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">载入中...</div>
+<div class="SRStatus" id="Searching">搜索中...</div>
+<div class="SRStatus" id="NoMatches">未找到</div>
+</div>
+</div>
+</div>
+</div>
+
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#nested-classes">类</a> &#124;
+<a href="#pub-methods">Public 成员函数</a> &#124;
+<a href="classCClient-members.html">所有成员列表</a>  </div>
+  <div class="headertitle"><div class="title">CClient类 参考<div class="ingroups"><a class="el" href="group__LIBAPI.html">库</a> &raquo; <a class="el" href="group__LIBAPI__CLIENT.html">客户端库</a> &raquo; <a class="el" href="group__CLIENT__API.html">客户端应用程序接口</a></div></div></div>
+</div><!--header-->
+<div class="contents">
+
+<p>管理插件和连接者  
+ <a href="classCClient.html#details">更多...</a></p>
+
+<p><code>#include &lt;<a class="el" href="Client_8h_source.html">Client.h</a>&gt;</code></p>
+<div class="dynheader">
+类 CClient 继承关系图:</div>
+<div class="dyncontent">
+ <div class="center">
+  <img src="classCClient.png" alt=""/>
+ </div></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
+类</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCClient_1_1Handle.html">Handle</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">处理连接者。用于客户端得到连接者信号  <a href="classCClient_1_1Handle.html#details">更多...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+Public 成员函数</h2></td></tr>
+<tr class="memitem:a1e9a6f243711ba5f57573d4be34388b8"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCClient.html#a1e9a6f243711ba5f57573d4be34388b8">CClient</a> (QObject *parent=nullptr)</td></tr>
+<tr class="separator:a1e9a6f243711ba5f57573d4be34388b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3cc3b315e8244e7283e3ba2b760df1d0"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classCConnecter.html">CConnecter</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCClient.html#a3cc3b315e8244e7283e3ba2b760df1d0">CreateConnecter</a> (const QString &amp;id)</td></tr>
+<tr class="memdesc:a3cc3b315e8244e7283e3ba2b760df1d0"><td class="mdescLeft">&#160;</td><td class="mdescRight">新建 <a class="el" href="classCConnecter.html" title="描述连接者应用接口。">CConnecter</a> 指针，所有者是调用者。 <b>当不在使用时，调用者必须释放指针</b>。 调用者必须连接信号 <a class="el" href="classCConnecter.html#a94d21575459fcee33fa23c8477991780" title="断开连接成功信号。仅由插件触发">CConnecter::sigDisconnected</a> 。 释放指针 ( CConnecter::deleteLater )  <a href="classCClient.html#a3cc3b315e8244e7283e3ba2b760df1d0">更多...</a><br /></td></tr>
+<tr class="separator:a3cc3b315e8244e7283e3ba2b760df1d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a352d711270b70b1c7f517b79a95af179"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classCConnecter.html">CConnecter</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCClient.html#a352d711270b70b1c7f517b79a95af179">LoadConnecter</a> (const QString &amp;szFile)</td></tr>
+<tr class="memdesc:a352d711270b70b1c7f517b79a95af179"><td class="mdescLeft">&#160;</td><td class="mdescRight">从文件中新建 <a class="el" href="classCConnecter.html" title="描述连接者应用接口。">CConnecter</a> 指针，所有者是调用者。 <b>当不再使用时，调用者必须负责删除此指针</b>。 调用者必须连接信号 <a class="el" href="classCConnecter.html#a94d21575459fcee33fa23c8477991780" title="断开连接成功信号。仅由插件触发">CConnecter::sigDisconnected</a> 。 释放指针( CConnecter::deleteLater )  <a href="classCClient.html#a352d711270b70b1c7f517b79a95af179">更多...</a><br /></td></tr>
+<tr class="separator:a352d711270b70b1c7f517b79a95af179"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a83bb32308629bf0acdf0c72896533491"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCClient.html#a83bb32308629bf0acdf0c72896533491">SaveConnecter</a> (QString szFile, <a class="el" href="classCConnecter.html">CConnecter</a> *pConnecter)</td></tr>
+<tr class="memdesc:a83bb32308629bf0acdf0c72896533491"><td class="mdescLeft">&#160;</td><td class="mdescRight">保存连接参数到文件  <a href="classCClient.html#a83bb32308629bf0acdf0c72896533491">更多...</a><br /></td></tr>
+<tr class="separator:a83bb32308629bf0acdf0c72896533491"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab7df8d466e34ea8846f58b31811b450e"><td class="memItemLeft" align="right" valign="top">virtual QList&lt; QWidget * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCClient.html#ab7df8d466e34ea8846f58b31811b450e">GetSettingsWidgets</a> (QWidget *parent)</td></tr>
+<tr class="memdesc:ab7df8d466e34ea8846f58b31811b450e"><td class="mdescLeft">&#160;</td><td class="mdescRight">得到设置参数窗口  <a href="classCClient.html#ab7df8d466e34ea8846f58b31811b450e">更多...</a><br /></td></tr>
+<tr class="separator:ab7df8d466e34ea8846f58b31811b450e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ace167906f78d5b1c37c8555869c97c40"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCClient.html#ace167906f78d5b1c37c8555869c97c40">LoadSettings</a> (QString szFile=QString())</td></tr>
+<tr class="memdesc:ace167906f78d5b1c37c8555869c97c40"><td class="mdescLeft">&#160;</td><td class="mdescRight">从文件中加载客户端参数  <a href="classCClient.html#ace167906f78d5b1c37c8555869c97c40">更多...</a><br /></td></tr>
+<tr class="separator:ace167906f78d5b1c37c8555869c97c40"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a053a84f54cf8b944446fdad97fafa510"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCClient.html#a053a84f54cf8b944446fdad97fafa510">SaveSettings</a> (QString szFile=QString())</td></tr>
+<tr class="memdesc:a053a84f54cf8b944446fdad97fafa510"><td class="mdescLeft">&#160;</td><td class="mdescRight">保存客户端参数到文件  <a href="classCClient.html#a053a84f54cf8b944446fdad97fafa510">更多...</a><br /></td></tr>
+<tr class="separator:a053a84f54cf8b944446fdad97fafa510"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae48a14ed60162b045d9607ac8b65dc27"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCClient.html#ae48a14ed60162b045d9607ac8b65dc27">EnumPlugins</a> (<a class="el" href="classCClient_1_1Handle.html">Handle</a> *handle)</td></tr>
+<tr class="memdesc:ae48a14ed60162b045d9607ac8b65dc27"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enum plugins  <a href="classCClient.html#ae48a14ed60162b045d9607ac8b65dc27">更多...</a><br /></td></tr>
+<tr class="separator:ae48a14ed60162b045d9607ac8b65dc27"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">详细描述</h2>
+<div class="textblock"><p >管理插件和连接者 </p>
+<dl class="section see"><dt>参见</dt><dd><a class="el" href="classCPluginClient.html" title="客户端插件接口。建立 CConnecter 实例，它由协议插件实现。 可以与 CConnecterDesktopThread 一起使用，用于连接是阻塞模型的。">CPluginClient</a> <a class="el" href="classCConnecter.html" title="描述连接者应用接口。">CConnecter</a> </dd></dl>
+
+<p class="definition">在文件 <a class="el" href="Client_8h_source.html">Client.h</a> 第 <a class="el" href="Client_8h_source.html#l00048">48</a> 行定义.</p>
+</div><h2 class="groupheader">构造及析构函数说明</h2>
+<a id="a1e9a6f243711ba5f57573d4be34388b8" name="a1e9a6f243711ba5f57573d4be34388b8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1e9a6f243711ba5f57573d4be34388b8">&#9670;&#160;</a></span>CClient()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">CClient::CClient </td>
+          <td>(</td>
+          <td class="paramtype">QObject *&#160;</td>
+          <td class="paramname"><em>parent</em> = <code>nullptr</code></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">explicit</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">在文件 <a class="el" href="Client_8cpp_source.html">Client.cpp</a> 第 <a class="el" href="Client_8cpp_source.html#l00015">15</a> 行定义.</p>
+
+</div>
+</div>
+<a id="adfec5dfb8d13c1245020e52aac0812b1" name="adfec5dfb8d13c1245020e52aac0812b1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adfec5dfb8d13c1245020e52aac0812b1">&#9670;&#160;</a></span>~CClient()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">CClient::~CClient </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">在文件 <a class="el" href="Client_8cpp_source.html">Client.cpp</a> 第 <a class="el" href="Client_8cpp_source.html#l00038">38</a> 行定义.</p>
+
+</div>
+</div>
+<h2 class="groupheader">成员函数说明</h2>
+<a id="a3cc3b315e8244e7283e3ba2b760df1d0" name="a3cc3b315e8244e7283e3ba2b760df1d0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3cc3b315e8244e7283e3ba2b760df1d0">&#9670;&#160;</a></span>CreateConnecter()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classCConnecter.html">CConnecter</a> * CClient::CreateConnecter </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;&#160;</td>
+          <td class="paramname"><em>id</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>新建 <a class="el" href="classCConnecter.html" title="描述连接者应用接口。">CConnecter</a> 指针，所有者是调用者。 <b>当不在使用时，调用者必须释放指针</b>。 调用者必须连接信号 <a class="el" href="classCConnecter.html#a94d21575459fcee33fa23c8477991780" title="断开连接成功信号。仅由插件触发">CConnecter::sigDisconnected</a> 。 释放指针 ( CConnecter::deleteLater ) </p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">id</td><td>插件 ID </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">在文件 <a class="el" href="Client_8cpp_source.html">Client.cpp</a> 第 <a class="el" href="Client_8cpp_source.html#l00143">143</a> 行定义.</p>
+
+</div>
+</div>
+<a id="ae48a14ed60162b045d9607ac8b65dc27" name="ae48a14ed60162b045d9607ac8b65dc27"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae48a14ed60162b045d9607ac8b65dc27">&#9670;&#160;</a></span>EnumPlugins()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int CClient::EnumPlugins </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classCClient_1_1Handle.html">Handle</a> *&#160;</td>
+          <td class="paramname"><em>handle</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Enum plugins </p>
+
+<p class="definition">在文件 <a class="el" href="Client_8cpp_source.html">Client.cpp</a> 第 <a class="el" href="Client_8cpp_source.html#l00220">220</a> 行定义.</p>
+
+</div>
+</div>
+<a id="ab7df8d466e34ea8846f58b31811b450e" name="ab7df8d466e34ea8846f58b31811b450e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab7df8d466e34ea8846f58b31811b450e">&#9670;&#160;</a></span>GetSettingsWidgets()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QList&lt; QWidget * &gt; CClient::GetSettingsWidgets </td>
+          <td>(</td>
+          <td class="paramtype">QWidget *&#160;</td>
+          <td class="paramname"><em>parent</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>得到设置参数窗口 </p>
+<dl class="section return"><dt>返回</dt><dd>设置参数窗口。此窗口的所有者为调用者。 </dd></dl>
+<dl class="section note"><dt>注解</dt><dd>此窗口必须有定义槽 <b>slotAccept</b> 。 例如: CFrmParameterViewer::slotAccept</dd></dl>
+<div class="fragment"></div><!-- fragment --> 
+<p class="definition">在文件 <a class="el" href="Client_8cpp_source.html">Client.cpp</a> 第 <a class="el" href="Client_8cpp_source.html#l00210">210</a> 行定义.</p>
+
+</div>
+</div>
+<a id="a352d711270b70b1c7f517b79a95af179" name="a352d711270b70b1c7f517b79a95af179"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a352d711270b70b1c7f517b79a95af179">&#9670;&#160;</a></span>LoadConnecter()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classCConnecter.html">CConnecter</a> * CClient::LoadConnecter </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;&#160;</td>
+          <td class="paramname"><em>szFile</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>从文件中新建 <a class="el" href="classCConnecter.html" title="描述连接者应用接口。">CConnecter</a> 指针，所有者是调用者。 <b>当不再使用时，调用者必须负责删除此指针</b>。 调用者必须连接信号 <a class="el" href="classCConnecter.html#a94d21575459fcee33fa23c8477991780" title="断开连接成功信号。仅由插件触发">CConnecter::sigDisconnected</a> 。 释放指针( CConnecter::deleteLater ) </p>
+
+<p class="definition">在文件 <a class="el" href="Client_8cpp_source.html">Client.cpp</a> 第 <a class="el" href="Client_8cpp_source.html#l00155">155</a> 行定义.</p>
+
+</div>
+</div>
+<a id="ace167906f78d5b1c37c8555869c97c40" name="ace167906f78d5b1c37c8555869c97c40"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ace167906f78d5b1c37c8555869c97c40">&#9670;&#160;</a></span>LoadSettings()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int CClient::LoadSettings </td>
+          <td>(</td>
+          <td class="paramtype">QString&#160;</td>
+          <td class="paramname"><em>szFile</em> = <code>QString()</code></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>从文件中加载客户端参数 </p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">szFile</td><td>文件名 </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">在文件 <a class="el" href="Client_8cpp_source.html">Client.cpp</a> 第 <a class="el" href="Client_8cpp_source.html#l00200">200</a> 行定义.</p>
+
+</div>
+</div>
+<a id="a83bb32308629bf0acdf0c72896533491" name="a83bb32308629bf0acdf0c72896533491"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a83bb32308629bf0acdf0c72896533491">&#9670;&#160;</a></span>SaveConnecter()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int CClient::SaveConnecter </td>
+          <td>(</td>
+          <td class="paramtype">QString&#160;</td>
+          <td class="paramname"><em>szFile</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classCConnecter.html">CConnecter</a> *&#160;</td>
+          <td class="paramname"><em>pConnecter</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>保存连接参数到文件 </p>
+
+<p class="definition">在文件 <a class="el" href="Client_8cpp_source.html">Client.cpp</a> 第 <a class="el" href="Client_8cpp_source.html#l00176">176</a> 行定义.</p>
+
+</div>
+</div>
+<a id="a053a84f54cf8b944446fdad97fafa510" name="a053a84f54cf8b944446fdad97fafa510"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a053a84f54cf8b944446fdad97fafa510">&#9670;&#160;</a></span>SaveSettings()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int CClient::SaveSettings </td>
+          <td>(</td>
+          <td class="paramtype">QString&#160;</td>
+          <td class="paramname"><em>szFile</em> = <code>QString()</code></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>保存客户端参数到文件 </p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">szFile：文件名</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">在文件 <a class="el" href="Client_8cpp_source.html">Client.cpp</a> 第 <a class="el" href="Client_8cpp_source.html#l00205">205</a> 行定义.</p>
+
+</div>
+</div>
+<hr/>该类的文档由以下文件生成:<ul>
+<li>/home/runner/work/RabbitRemoteControl/RabbitRemoteControl/Client/<a class="el" href="Client_8h_source.html">Client.h</a></li>
+<li>/home/runner/work/RabbitRemoteControl/RabbitRemoteControl/Client/<a class="el" href="Client_8cpp_source.html">Client.cpp</a></li>
+</ul>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+制作者&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5
+</small></address>
+</body>
+</html>
