@@ -84,7 +84,7 @@ jobs:
       - name: git clone RabbitCommon
         working-directory: ${{env.SOURCE_DIR}}
         run: |
-            git clone -b v2 https://github.com/KangLin/RabbitCommon.git
+            git clone https://github.com/KangLin/RabbitCommon.git
 
       - name: Install apt packages
         run: |
